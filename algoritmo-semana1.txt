@@ -1,15 +1,10 @@
-Pregunta 1:
-¿Cuál de las siguientes opciones describe mejor qué es la ciudadanía digital?
-Respuesta: B
-El uso responsable de la tecnología para informarse, participar y compartir información de manera ética.
- 
-Pregunta 2:
-¿Cuál es la razón principal por la que es importante verificar la información antes de compartirla en internet?
-Respuesta: C
-Para evitar difundir información falsa o engañosa.
- 
-Pregunta 3:
-¿Cuál de las siguientes opciones define mejor un algoritmo?
-Respuesta: B
-Una lista de pasos ordenados para resolver un problema.
- 
+Pregunta 5 — Algoritmo: Cómo compartir información confiable en internet
+
+Paso 1: Buscar la información en fuentes reconocidas (periódicos, instituciones, portales oficiales).
+Paso 2: Revisar la fuente para confirmar que es un medio o autor confiable y con trayectoria.
+Paso 3: Confirmar la noticia buscando si otros medios serios también la han publicado.
+Paso 4: Verificar la fecha de publicación para asegurarse de que la información es reciente y vigente.
+Paso 5: Leer el contenido completo antes de compartir, sin guiarse únicamente por el título o el resumen.
+Paso 6: Revisar si el contenido incluye datos, estadísticas o citas verificables que respalden lo que afirma.
+Paso 7: Compartir la información incluyendo el enlace original para que otros también puedan verificarla.
+Paso 8: Añadir un comentario propio que indique por qué consideras que la información es útil o relevante.
