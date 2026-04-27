@@ -1,8 +1,8 @@
 Reflexión de verificación responsable
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Reinaldo Leal
+Fecha: 27 de abril de 2026
+Nombre de la rama: reinaldo_leal
 
 Escribe una reflexión de 8 a 10 líneas respondiendo las siguientes preguntas:
 
@@ -12,3 +12,4 @@ Escribe una reflexión de 8 a 10 líneas respondiendo las siguientes preguntas:
 4. ¿Qué relación tiene el formulario “Participa” con la participación ciudadana?
 
 Respuesta:
+Compartir información sin verificar puede generar desinformación, pánico o dañar la reputación de personas, por lo que la verificación responsable es un pilar fundamental para proteger a nuestra comunidad y garantizar un entorno seguro y de confianza. Al mismo tiempo, para que la comunidad participe activamente, las herramientas digitales deben estar disponibles para todos sin excepción. Aquí es donde entra la accesibilidad web, la cual no es solo una recomendación técnica, sino una verdadera forma de inclusión digital, permitiendo que personas con distintas habilidades puedan interactuar. Finalmente, un formulario bien estructurado y accesible como el formulario "Participa" actúa como un canal directo de participación ciudadana, facilitando que las propuestas lleguen de forma clara y segura a quienes toman decisiones.

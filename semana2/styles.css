@@ -1,58 +1,132 @@
+:root {
+  --primary-color: #4f46e5;
+  --primary-hover: #4338ca;
+  --bg-color: #f3f4f6;
+  --card-bg: #ffffff;
+  --text-main: #111827;
+  --text-muted: #4b5563;
+  --border-color: #d1d5db;
+  --focus-ring: #818cf8;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.5;
-    background-color: #f5f5f5;
-  }
-  
-  main {
-    max-width: 700px;
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+}
+
+main {
+    max-width: 650px;
     margin: 0 auto;
-  }
-  
-  .contenedor {
-    background-color: white;
-    padding: 24px;
-    border-radius: 8px;
-  }
-  
-  h1 {
-    font-size: 28px;
-    margin-bottom: 12px;
-  }
-  
-  p {
+}
+
+.contenedor {
+    background-color: var(--card-bg);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.descripcion {
     font-size: 16px;
-  }
-  
-  form {
+    color: var(--text-muted);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
     margin-top: 20px;
-  }
-  
-  .campo {
-    margin-bottom: 15px;
-  }
-  
-  label {
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
     display: block;
-    margin-bottom: 6px;
-  }
-  
-  input,
-  textarea {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+input[type="text"],
+textarea {
     width: 100%;
-    padding: 8px;
-    font-size: 16px;
+    padding: 12px 14px;
+    font-size: 15px;
+    font-family: 'Inter', Arial, sans-serif;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
     box-sizing: border-box;
-  }
-  
-  textarea {
-    min-height: 120px;
-  }
-  
-  button {
-    padding: 10px 16px;
-    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #f9fafb;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+    background-color: #fff;
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.campo-checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.campo-checkbox input[type="checkbox"] {
+    margin-top: 4px;
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary-color);
     cursor: pointer;
-  }
-  
+}
+
+.campo-checkbox label {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: var(--primary-hover);
+}
+
+button:active {
+    transform: translateY(1px);
+}

@@ -1,35 +1,35 @@
 Checklist de accesibilidad – Formulario Participa
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Reinaldo Leal
+Fecha: 27 de abril de 2026
+Nombre de la rama: reinaldo_leal
 
 1. ¿El formulario tiene un título claro?
-Respuesta:
+Respuesta: Sí, se ajustó a "Formulario de Participación Ciudadana" con la etiqueta <h1>.
 
 2. ¿El formulario explica para qué se usará la información?
-Respuesta:
+Respuesta: Sí, la descripción aclara que es exclusivamente para fines de participación y desarrollo comunitario.
 
 3. ¿Cada campo tiene un label o etiqueta visible?
-Respuesta:
+Respuesta: Sí, cada <input> y <textarea> está correctamente asociado a su respectivo <label> utilizando el atributo for.
 
 4. ¿El lenguaje usado es sencillo y comprensible?
-Respuesta:
+Respuesta: Sí, se utiliza un lenguaje claro, directo y respetuoso, fácil de entender por cualquier usuario.
 
 5. ¿El formulario evita pedir datos innecesarios?
-Respuesta:
+Respuesta: Sí, pide únicamente nombre, la propuesta y un contacto que además se marca como opcional.
 
 6. ¿El campo principal permite escribir una propuesta o mensaje de forma clara?
-Respuesta:
+Respuesta: Sí, se emplea un elemento <textarea> que ofrece suficiente espacio para redactar la propuesta detalladamente.
 
 7. ¿El formulario incluye una casilla o mensaje de consentimiento?
-Respuesta:
+Respuesta: Sí, incluye un checkbox obligatorio para aceptar el uso responsable de la información de la persona.
 
 8. ¿El botón de envío tiene un texto claro?
-Respuesta:
+Respuesta: Sí, el texto se cambió a "Enviar propuesta", lo que indica la acción concreta que se realizará.
 
 9. ¿La página se puede leer con facilidad?
-Respuesta:
+Respuesta: Sí, se actualizaron los estilos CSS para mejorar el contraste, la legibilidad (fuente Inter), espaciados y tamaños.
 
 10. ¿Qué mejorarías del formulario para que más personas puedan usarlo?
-Respuesta:
+Respuesta: Podría agregar soporte multilenguaje, un interruptor para modo oscuro y asegurarse de que el contraste cumpla con el nivel AAA de las pautas WCAG.
