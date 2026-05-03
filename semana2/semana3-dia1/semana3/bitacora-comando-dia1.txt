@@ -1,8 +1,8 @@
 Bitácora de comando – Semana 3 Día 1
 
-Nombre del estudiante: Yailin Pasto
+Nombre del estudiante: Reinaldo Leal
 Fecha: 2026-05-02
-Nombre de la rama: yailin_pasto
+Nombre de la rama: reinaldo_leal
 
 Comando nuevo del día:
 node archivo.js
@@ -18,7 +18,7 @@ Respuesta: cd programadores-para-la-paz-semana3-dia1
 
 3. Comando usado para crear tu rama personal:
 
-Respuesta: git checkout -b yailin_pasto
+Respuesta: git checkout -b reinaldo_leal
 
 4. Comando usado para verificar la rama:
 
@@ -46,5 +46,5 @@ Respuesta: git commit -m "Algoritmos simples con JavaScript semana 3 dia 1"
 
 10. Comando usado para publicar la rama:
 
-Respuesta: git push -u origin yailin_pasto
+Respuesta: git push -u origin reinaldo_leal
 
