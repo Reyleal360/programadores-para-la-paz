@@ -1,0 +1,13 @@
+{
+    "name": "programadores-para-la-paz-semana3-dia5",
+    "version": "1.0.0",
+    "description": "Servidor básico con Node.js para comprender cliente, servidor, HTTP, GET y POST.",
+    "main": "servidor.js",
+    "scripts": {
+      "start": "node servidor.js",
+      "post": "node cliente-post.js"
+    },
+    "author": "Programa Capacitación en Democracia y Tecnología",
+    "license": "MIT"
+  }
+  

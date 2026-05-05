@@ -1,0 +1,11 @@
+Reflexión sobre plataformas participativas – Semana 3 Día 5
+
+Nombre del estudiante: Reinaldo Leal
+Fecha: 2026-05-05
+Nombre de la rama: reinaldo_leal
+
+Escribe una reflexión de 6 a 8 líneas respondiendo:
+
+¿Por qué una plataforma participativa debe permitir consultar información y también enviar propuestas o mensajes de la comunidad?
+
+Respuesta: Una plataforma participativa debe ser bidireccional para garantizar el acceso a la información y fomentar la participación ciudadana de manera efectiva. Al permitir que la comunidad consulte datos y propuestas existentes, se genera transparencia y se construye confianza comunitaria, ya que las personas saben qué se está haciendo. Por otro lado, la recepción de propuestas permite que el servidor no sea solo un emisor estático, sino un receptor de ideas que enriquecen la organización. Esta interacción fortalece la democracia local y asegura que las respuestas del servidor sean pertinentes a las necesidades reales de los vecinos. Es una herramienta clave para la responsabilidad digital y el empoderamiento colectivo.

@@ -1,0 +1,47 @@
+Conceptos básicos de servidor y HTTP – Semana 3 Día 5
+
+Nombre del estudiante: Reinaldo Leal
+Fecha: 2026-05-05
+Nombre de la rama: reinaldo_leal
+
+Responde con tus propias palabras.
+
+1. ¿Qué es un cliente en la web?
+
+Respuesta: Es el dispositivo o aplicación (como un navegador) que solicita información o servicios a través de internet.
+
+2. ¿Qué es un servidor?
+
+Respuesta: Es una computadora o programa que "sirve" o entrega información, archivos o respuestas a las solicitudes realizadas por los clientes.
+
+3. ¿Qué es HTTP explicado de forma sencilla?
+
+Respuesta: Es el "lenguaje" o protocolo de comunicación que usan el cliente y el servidor para entenderse y transferir datos.
+
+4. ¿Qué es una request o solicitud?
+
+Respuesta: Es el mensaje que el cliente envía al servidor pidiendo algo (una página, un dato, etc.).
+
+5. ¿Qué es una response o respuesta?
+
+Respuesta: Es el mensaje que el servidor envía de vuelta al cliente con la información solicitada o un error.
+
+6. ¿Para qué sirve el método GET?
+
+Respuesta: Se usa para solicitar o "traer" información desde el servidor sin modificar nada.
+
+7. ¿Para qué sirve el método POST?
+
+Respuesta: Se usa para enviar datos nuevos al servidor, como una propuesta o un formulario.
+
+8. ¿Qué hace el comando npm start en esta práctica?
+
+Respuesta: Ejecuta el servidor Node.js definido en el archivo servidor.js.
+
+9. ¿Qué mensaje viste al abrir http://localhost:3000?
+
+Respuesta: "Bienvenida comunidad de Programadores para la Paz. Este es el servidor de participación."
+
+10. ¿Cómo se relaciona un servidor con una plataforma participativa?
+
+Respuesta: El servidor es el motor que recibe las voces de la comunidad y permite que todos puedan consultar qué se está proponiendo, centralizando la información para la transparencia.
