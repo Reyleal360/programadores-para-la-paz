@@ -1,0 +1,47 @@
+Conceptos básicos de Express – Módulo 2 Semana 1 Día 1
+
+Nombre del estudiante: Reinaldo Leal
+Fecha: 2026-05-06
+Nombre de la rama: reinaldo_leal
+
+Responde con tus propias palabras.
+
+1. ¿Qué es Express?
+
+Respuesta: Express es un framework web minimalista y flexible para Node.js que proporciona un conjunto robusto de características para aplicaciones web y móviles.
+
+2. ¿Qué diferencia básica hay entre Node.js y Express?
+
+Respuesta: Node.js es el entorno de ejecución que permite correr JavaScript en el servidor, mientras que Express es un marco de trabajo (framework) construido sobre Node.js para simplificar el manejo de rutas y servidores.
+
+3. ¿Qué hace el comando npm install express?
+
+Respuesta: Descarga e instala la biblioteca Express en la carpeta node_modules del proyecto y la registra como una dependencia en el archivo package.json.
+
+4. ¿Qué hace el comando npm start en esta práctica?
+
+Respuesta: Ejecuta el script de inicio definido en el archivo package.json, el cual pone en marcha el servidor Node.js (ejecutando server.js).
+
+5. ¿Qué es una ruta en Express?
+
+Respuesta: Es una definición de un punto final (endpoint) de la aplicación que se asocia a un método HTTP (como GET o POST) y a un camino (path) en la URL.
+
+6. ¿Para qué usamos una ruta GET?
+
+Respuesta: Para solicitar o recuperar datos del servidor sin modificar el estado del mismo.
+
+7. ¿Para qué usamos una ruta POST?
+
+Respuesta: Para enviar datos al servidor con el fin de crear un nuevo recurso o procesar información (por ejemplo, enviar una propuesta).
+
+8. ¿Qué significa req en una ruta?
+
+Respuesta: Representa el objeto de solicitud (request), que contiene información sobre la petición que el cliente hace al servidor.
+
+9. ¿Qué significa res en una ruta?
+
+Respuesta: Representa el objeto de respuesta (response), que se utiliza para enviar la información de vuelta al cliente desde el servidor.
+
+10. ¿Cómo puede servir Express para construir herramientas de comunicación comunitaria?
+
+Respuesta: Permite desarrollar de forma rápida y organizada servidores que centralicen la información, gestionen buzones de sugerencias y faciliten la interacción digital entre los miembros de la comunidad.

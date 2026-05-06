@@ -1,0 +1,47 @@
+Conceptos básicos de while – Semana 3 Día 3
+
+Nombre del estudiante: Yailin Pasto
+Fecha: 2026-05-02
+Nombre de la rama: yailin_pasto
+
+Responde con tus propias palabras.
+
+1. ¿Qué significa repetir instrucciones en programación?
+
+Respuesta: Significa ejecutar un mismo bloque de código varias veces de forma automática, sin tener que escribirlo una y otra vez.
+
+2. ¿Qué es un ciclo while?
+
+Respuesta: Es una estructura de control que repite un conjunto de instrucciones "mientras" una condición específica sea verdadera.
+
+3. ¿Qué significa la condición dentro de un while?
+
+Respuesta: Es la regla o evaluación que decide si el ciclo debe continuar ejecutándose o si debe detenerse.
+
+4. ¿Por qué es importante cambiar una variable dentro del while?
+
+Respuesta: Porque si no cambiamos la variable que se evalúa en la condición, la condición siempre será verdadera y el ciclo nunca terminará.
+
+5. ¿Qué es un ciclo infinito?
+
+Respuesta: Es un ciclo que no tiene una forma de detenerse porque su condición nunca se vuelve falsa, lo que puede bloquear o congelar el programa.
+
+6. ¿Qué hace el comando npm run practicar?
+
+Respuesta: Ejecuta un script o comando predefinido en el archivo package.json, en este caso, suele servir para ejecutar el archivo ciclo-while.js.
+
+7. ¿Dónde está definido el comando practicar?
+
+Respuesta: Está definido en la sección "scripts" del archivo package.json.
+
+8. ¿Qué diferencia hay entre node archivo.js y npm run practicar?
+
+Respuesta: "node archivo.js" ejecuta directamente el archivo con Node.js. "npm run practicar" ejecuta el comando que ha sido configurado bajo el nombre "practicar" en package.json.
+
+9. ¿Cómo puede servir un while para revisar varias fuentes de información?
+
+Respuesta: Permite automatizar la revisión de cada fuente una por una, asegurando que se evalúen todas sin omitir ninguna, hasta alcanzar el total de fuentes disponibles.
+
+10. ¿Cómo puede relacionarse un ciclo con el seguimiento de propuestas comunitarias?
+
+Respuesta: De la misma manera, un ciclo permite iterar sobre una lista de propuestas o semanas de seguimiento, ejecutando el proceso de revisión de forma sistemática y ordenada.
