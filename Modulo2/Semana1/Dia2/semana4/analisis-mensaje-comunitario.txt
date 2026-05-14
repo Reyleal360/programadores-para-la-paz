@@ -1,0 +1,50 @@
+ANÁLISIS DEL MENSAJE COMUNITARIO
+Módulo 2, Semana 1, Día 2
+Nombre: Reinaldo Leal
+Fecha: 14 de mayo de 2026
+
+========================================
+Mensaje original de campaña (server.js)
+========================================
+"Campaña activa: 'Plataformas participativas para una democracia digital
+más fuerte y cercana a la comunidad'."
+
+========================================
+¿Por qué elegí este mensaje?
+========================================
+El mensaje busca conectar dos ideas fundamentales del curso:
+la tecnología como herramienta y la democracia como objetivo.
+
+No es un mensaje técnico. Es un mensaje ciudadano que expresa el propósito
+real de construir una plataforma participativa: acercar la tecnología a la
+comunidad para fortalecer la democracia.
+
+========================================
+Análisis del mensaje de avisos
+========================================
+"Aviso comunitario: Verifica siempre las fuentes antes de compartir
+información. La verdad fortalece la convivencia."
+
+Este aviso refleja la responsabilidad digital. En tiempos de desinformación,
+una plataforma comunitaria tiene el deber de promover la verificación de
+fuentes. No basta con compartir información rápido; hay que compartirla bien.
+
+========================================
+¿Cómo debería responder un servidor a una propuesta?
+========================================
+La respuesta del servidor a un POST debe ser:
+1. Clara: confirmar que la propuesta fue recibida.
+2. Agradecida: reconocer la participación ciudadana.
+3. Honesta: no prometer más de lo que el sistema puede hacer.
+
+Ejemplo de buena respuesta:
+"Tu propuesta ha sido registrada. Gracias por contribuir a mejorar
+nuestra comunidad digital."
+
+========================================
+Reflexión final
+========================================
+Los mensajes que circulan en una plataforma comunitaria no son simples
+cadenas de texto. Son la voz de una comunidad. Diseñar esos mensajes
+con cuidado, responsabilidad y claridad es parte del trabajo de quien
+desarrolla tecnología para la paz.

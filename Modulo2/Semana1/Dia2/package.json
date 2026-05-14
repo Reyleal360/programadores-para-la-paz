@@ -1,0 +1,14 @@
+{
+  "name": "programadores-para-la-paz-modulo2-semana1-dia2",
+  "version": "1.0.0",
+  "description": "Servidor Express con fetch cliente-servidor. Módulo 2, Semana 1, Día 2.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Programa Capacitación en Democracia y Tecnología",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

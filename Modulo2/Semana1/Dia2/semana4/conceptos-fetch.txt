@@ -1,0 +1,65 @@
+CONCEPTOS FETCH — Módulo 2, Semana 1, Día 2
+Nombre: Reinaldo Leal
+Fecha: 14 de mayo de 2026
+
+========================================
+¿Qué es fetch?
+========================================
+fetch es una función nativa de JavaScript que permite a una página web
+hacer solicitudes HTTP hacia un servidor sin necesidad de recargar la página.
+Es el puente de comunicación entre el cliente (navegador) y el servidor.
+
+========================================
+¿Qué es el cliente y qué es el servidor?
+========================================
+- Cliente: Es el navegador web (el programa que el usuario ve y usa).
+  Muestra la página, captura datos del usuario y ejecuta JavaScript.
+
+- Servidor: Es el programa que escucha solicitudes y responde con datos.
+  En este proyecto el servidor es Express (Node.js).
+
+La comunicación cliente ↔ servidor funciona así:
+  1. El cliente (navegador) hace una solicitud usando fetch.
+  2. El servidor recibe la solicitud y procesa la información.
+  3. El servidor responde con un mensaje o dato.
+  4. El cliente muestra ese dato en la página.
+
+========================================
+Métodos HTTP usados con fetch
+========================================
+GET  → Pedir o consultar información del servidor.
+       Ejemplo: consultar el mensaje de campaña o los avisos.
+
+POST → Enviar información al servidor.
+       Ejemplo: enviar una propuesta comunitaria.
+
+========================================
+Ejemplo GET
+========================================
+const respuesta = await fetch("/api/avisos")
+const texto = await respuesta.text()
+respuestaAvisos.textContent = texto
+
+→ La página solicita /api/avisos, espera la respuesta y muestra el texto.
+
+========================================
+Ejemplo POST
+========================================
+const respuesta = await fetch("/api/propuestas", {
+  method: "POST",
+  headers: { "Content-Type": "text/plain; charset=utf-8" },
+  body: textoPropuesta
+})
+const texto = await respuesta.text()
+respuestaEnvio.textContent = texto
+
+→ La página toma el texto del usuario, lo envía al servidor con POST
+  y muestra la confirmación que regresa.
+
+========================================
+¿Por qué es importante fetch en plataformas comunitarias?
+========================================
+fetch permite que una plataforma participativa pueda:
+- Mostrar información actualizada del servidor (campañas, avisos).
+- Recibir propuestas y mensajes ciudadanos sin recargar la página.
+- Crear experiencias interactivas y dinámicas para la comunidad.

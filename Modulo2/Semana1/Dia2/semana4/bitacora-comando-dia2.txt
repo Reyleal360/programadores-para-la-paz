@@ -1,0 +1,69 @@
+BITÁCORA DE COMANDOS — Día 2, Módulo 2, Semana 1
+Nombre: Reinaldo Leal
+Fecha: 14 de mayo de 2026
+
+========================================
+Flujo completo de comandos ejecutados hoy
+========================================
+
+1. Fork del repositorio desde GitHub (acción en el navegador)
+   → Se hizo clic en el botón Fork en el repositorio del docente.
+   → GitHub creó una copia del repositorio en la cuenta personal.
+
+2. Copiar la URL HTTPS del fork personal
+   → Se copió desde el botón Code en el fork personal.
+
+3. Clonar el fork
+   git clone https://github.com/tu-usuario/programadores-para-la-paz-modulo2-semana1-dia2.git
+
+4. Entrar a la carpeta del proyecto
+   cd programadores-para-la-paz-modulo2-semana1-dia2
+
+5. Crear rama personal
+   git checkout -b reinaldo_leal
+
+6. Verificar la rama activa
+   git branch
+
+7. Instalar dependencias
+   npm install
+   → Descarga Express y demás paquetes del archivo package.json.
+
+8. Levantar el servidor
+   npm start
+   → Inicia el servidor Express en http://localhost:3000
+
+9. Prueba de rutas desde el navegador
+   → Abrí http://localhost:3000
+   → Probé el botón "Consultar campaña" → GET /api/campania ✅
+   → Probé el botón "Consultar avisos"  → GET /api/avisos  ✅
+   → Escribí una propuesta y pulsé "Enviar propuesta" → POST /api/propuestas ✅
+
+10. Modificar server.js (cambié el mensaje de campaña)
+    → Guardé el archivo, detuve el servidor con Ctrl+C
+    → Volví a ejecutar npm start
+    → Recargué el navegador y verifiqué el nuevo mensaje.
+
+11. Modificar public/index.html
+    → Cambié el placeholder del campo de propuesta.
+
+12. Revisar public/app.js
+    → Identifiqué los tres usos de fetch:
+      a) fetch("/api/campania")         → GET
+      b) fetch("/api/avisos")           → GET
+      c) fetch("/api/propuestas", {...}) → POST
+
+13. Registrar cambios en Git
+    git status
+    git add .
+    git commit -m "Fetch cliente servidor modulo 2 semana 1 dia 2"
+
+14. Publicar rama personal en GitHub
+    git push -u origin reinaldo_leal
+
+========================================
+Comando nuevo del día
+========================================
+npm install
+→ Lee el archivo package.json e instala todas las dependencias del proyecto.
+   En esta práctica instala Express para que el servidor pueda funcionar.
