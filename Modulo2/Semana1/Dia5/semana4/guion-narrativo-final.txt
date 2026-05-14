@@ -1,0 +1,38 @@
+GUION NARRATIVO FINAL — Voz Ciudadana
+Módulo 2, Semana 1, Día 5
+Nombre: Reinaldo Leal
+
+========================================
+1. Necesidad detectada
+========================================
+En muchas comunidades, las propuestas ciudadanas se pierden en chats de 
+WhatsApp o en conversaciones informales que no dejan rastro. Existe una 
+brecha de comunicación entre el ciudadano que propone y el sistema que registra.
+
+========================================
+2. Audiencia y Tono
+========================================
+- Audiencia: Vecinos, líderes comunitarios y jóvenes del barrio.
+- Tono: Respetuoso, propositivo, transparente y alentador. 
+  Buscamos que el usuario sienta que su voz es importante y está siendo 
+  registrada formalmente.
+
+========================================
+3. Propósito de la herramienta
+========================================
+"Voz Ciudadana" es un puente tecnológico que permite registrar ideas de 
+mejora para la convivencia y el entorno. Sirve para centralizar el pedido 
+ciudadano en un repositorio transparente y accesible.
+
+========================================
+4. Llamado a la acción (Call to Action)
+========================================
+"Tu propuesta es la semilla del cambio. Escríbela, envíala y ayudemos a 
+construir un barrio mejor para todos."
+
+========================================
+5. Lenguaje Responsable
+========================================
+Se promueve el uso de un lenguaje no estigmatizante. Se invita a proponer 
+soluciones en lugar de solo señalar culpables, fortaleciendo así la paz 
+desde la comunicación digital responsable.

@@ -1,0 +1,42 @@
+BITÁCORA DE COMANDOS — Día 5, Módulo 2, Semana 1
+Nombre: Reinaldo Leal
+Fecha: 14 de mayo de 2026
+
+========================================
+Flujo de trabajo realizado
+========================================
+
+1. Fork del repositorio original (navegador).
+2. Clonar el fork personal:
+   git clone https://github.com/Reyleal360/programadores-para-la-paz-modulo2-semana1-dia5.git
+
+3. Entrar a la carpeta del proyecto:
+   cd programadores-para-la-paz-modulo2-semana1-dia5
+
+4. Crear y cambiar a la rama personal:
+   git checkout -b reinaldo_leal
+
+5. Instalar dependencias necesarias:
+   npm install
+
+6. Levantar la API en modo de prueba:
+   npm run prueba
+   → El servidor inició en http://localhost:3000
+
+7. Pruebas realizadas (ver bitacora-pruebas-api.txt).
+
+8. Registro de cambios:
+   git status
+   git add .
+   git commit -m "Promesas pruebas trazabilidad modulo 2 semana 1 dia 5"
+
+9. Publicar en GitHub:
+   git push -u origin reinaldo_leal
+
+========================================
+Comando nuevo del día
+========================================
+npm run prueba
+→ Es un script personalizado definido en package.json.
+→ En este caso, ejecuta "node server.js".
+→ Su propósito es recordarnos que el Día 5 es para probar y consolidar el proyecto.

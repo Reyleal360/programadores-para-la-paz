@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1747000000000,
+    "titulo": "Propuesta inicial",
+    "mensaje": "Esta es la propuesta de ejemplo que viene incluida al inicio del proyecto.",
+    "fecha": "2026-05-14T21:00:00.000Z"
+  },
+  {
+    "id": 1778797868597,
+    "titulo": "Luz en el parque",
+    "mensaje": "Necesitamos m",
+    "fecha": "2026-05-14T22:31:08.597Z"
+  },
+  {
+    "id": 1778797893662,
+    "titulo": "Luz en el parque 2",
+    "mensaje": "Necesitamos mas iluminacion",
+    "fecha": "2026-05-14T22:31:33.662Z"
+  }
+]

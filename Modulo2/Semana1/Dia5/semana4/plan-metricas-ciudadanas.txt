@@ -1,0 +1,36 @@
+PLAN DE MÉTRICAS CIUDADANAS
+Módulo 2, Semana 1, Día 5
+Nombre: Reinaldo Leal
+
+========================================
+Objetivo de las métricas
+========================================
+Medir el nivel de participación y el tipo de necesidades de la comunidad 
+sin invadir la privacidad de los usuarios.
+
+========================================
+Métricas propuestas
+========================================
+
+1. Volumen de participación:
+   → Total de propuestas recibidas por mes.
+   → Meta: Lograr al menos 5 propuestas semanales.
+
+2. Temas recurrentes:
+   → Categorización manual de las propuestas (Ej: Seguridad, Aseo, Salud).
+   → Propósito: Identificar las prioridades reales del barrio.
+
+3. Distribución temporal:
+   → Días y horas en que la comunidad más participa.
+   → Propósito: Saber cuándo la plataforma es más necesaria.
+
+4. Tiempo de respuesta (Seguimiento):
+   → Días que pasan desde que se recibe la propuesta hasta que se publica 
+     un estado sobre ella (en revisión, aceptada, etc).
+
+========================================
+Compromiso de Privacidad
+========================================
+No se recolectan correos electrónicos, números de teléfono ni nombres reales 
+en esta etapa inicial, priorizando el derecho al anonimato propositivo y la 
+seguridad de los datos comunitarios.

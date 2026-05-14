@@ -1,0 +1,27 @@
+MODELO DE DATOS TIPO MESSAGE
+Módulo 2, Semana 1, Día 5
+Nombre: Reinaldo Leal
+
+========================================
+Estructura del Mensaje (JSON)
+========================================
+Para organizar la información de forma transparente y útil, cada propuesta 
+sigue este modelo:
+
+{
+  "id": "Identificador único (basado en timestamp)",
+  "titulo": "Título corto y descriptivo de la necesidad",
+  "mensaje": "Cuerpo detallado de la propuesta ciudadana",
+  "fecha": "Fecha y hora de registro en formato ISO"
+}
+
+========================================
+Justificación del modelo
+========================================
+- El ID nos permite tener trazabilidad única de cada voz ciudadana.
+- El TÍTULO facilita la lectura rápida de un listado de muchas propuestas.
+- El MENSAJE permite la libre expresión responsable de la comunidad.
+- La FECHA es fundamental para saber cuándo se hizo el pedido y dar seguimiento oportuno.
+
+Este modelo es simple pero suficiente para construir una base de datos 
+de participación ciudadana transparente.

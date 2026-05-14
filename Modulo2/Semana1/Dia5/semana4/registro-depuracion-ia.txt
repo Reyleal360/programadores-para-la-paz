@@ -1,0 +1,36 @@
+REGISTRO DE DEPURACIÓN CON IA — Día 5
+Nombre: Reinaldo Leal
+
+========================================
+Problema detectado
+========================================
+Error al intentar enviar una propuesta: "Unexpected token in JSON at position 0".
+Esto ocurrió al intentar capturar la respuesta del servidor en el cliente.
+
+========================================
+Sugerencia de la IA
+========================================
+La IA indicó que el servidor estaba enviando una respuesta de texto plano 
+(res.send) pero el cliente estaba intentando procesarla como JSON 
+(respuesta.json()).
+
+Sugerencia: Asegurarse de que el servidor use res.json() y que el cliente 
+valide si la respuesta es correcta antes de transformarla.
+
+========================================
+Validación y Prueba
+========================================
+1. Revisé el archivo server.js y cambié res.send() por res.status(201).json({...}).
+2. En app.js agregué la verificación if(!respuesta.ok).
+3. Reinicié el servidor con npm run prueba.
+4. Volví a enviar la propuesta.
+
+========================================
+Resultado
+========================================
+El error desapareció y ahora el cliente recibe y muestra correctamente la 
+confirmación del servidor en formato JSON.
+
+Lección aprendida: Es vital que el formato que envía el servidor coincida 
+con lo que el cliente espera recibir. La IA es una excelente guía para 
+encontrar inconsistencias de formato.

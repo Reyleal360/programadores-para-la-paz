@@ -1,0 +1,31 @@
+REFLEXIÓN DE CIERRE — Semana 4
+Nombre: Reinaldo Leal
+Fecha: 14 de mayo de 2026
+
+========================================
+¿Qué aprendí en esta semana de cierre?
+========================================
+
+Esta semana ha sido fundamental para unir los conceptos técnicos con el 
+propósito social. Aprendí que una API no es solo un conjunto de rutas, 
+sino un canal de comunicación que debe ser diseñado con responsabilidad.
+
+El manejo de promesas con .then() y .catch() me enseñó que en la web nada 
+es instantáneo y que debemos programar pensando en el error. Un programa 
+bien hecho es aquel que sabe decirle al usuario cuando algo falló de forma 
+amable y clara.
+
+También comprendí la importancia de la trazabilidad. Usar Git no es solo 
+guardar archivos, es registrar la historia de cómo se construye una solución. 
+Hacer pruebas manuales y registrarlas en una bitácora nos hace desarrolladores 
+más profesionales y confiables.
+
+Desde el componente de comunicación, aprendí que el código debe estar 
+respaldado por una narrativa clara. Si construimos una herramienta para la 
+comunidad, debemos saber a quién le hablamos, qué tono usamos y cómo 
+protegemos su información y privacidad.
+
+Me voy de esta semana entendiendo que la tecnología es un medio, no un fin. 
+El fin es fortalecer la voz de las personas y construir espacios de paz 
+y democracia digital. Estoy listo para los retos que vienen en las 
+siguientes semanas del módulo.

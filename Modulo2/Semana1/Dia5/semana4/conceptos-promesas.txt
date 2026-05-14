@@ -1,0 +1,39 @@
+CONCEPTOS PROMESAS — Módulo 2, Semana 1, Día 5
+Nombre: Reinaldo Leal
+Fecha: 14 de mayo de 2026
+
+========================================
+¿Qué es una promesa?
+========================================
+Una promesa es un objeto en JavaScript que representa el resultado eventual
+de una operación asíncrona. Es una forma de manejar tareas que no ocurren
+al instante, como pedir datos a un servidor.
+
+Estados de una promesa:
+1. Pendiente (Pending): La tarea aún no termina.
+2. Cumplida (Fulfilled): La tarea terminó con éxito.
+3. Rechazada (Rejected): La tarea falló.
+
+========================================
+¿Por qué fetch devuelve una promesa?
+========================================
+Porque cuando el navegador hace una solicitud fetch, no recibe la respuesta
+de inmediato. Tiene que esperar a que el mensaje viaje por internet, llegue
+al servidor, sea procesado y regrese. fetch devuelve una promesa para que
+el código pueda seguir funcionando mientras espera la respuesta.
+
+========================================
+Uso de .then() y .catch()
+========================================
+.then(): Se ejecuta cuando la promesa se cumple con éxito. Recibe el resultado.
+  Ejemplo: .then((respuesta) => { return respuesta.json() })
+
+.catch(): Se ejecuta cuando la promesa falla (error de red, servidor apagado, etc).
+  Ejemplo: .catch((error) => { console.log("Fallo:", error) })
+
+========================================
+Diferencia con async/await
+========================================
+async/await es una forma más moderna de escribir lo mismo, pero .then() y
+.catch() son la base fundamental de las promesas. Usar .then() nos permite
+entender cómo fluyen los datos y cómo se encadenan las tareas asíncronas.

@@ -1,0 +1,43 @@
+BITÁCORA DE PRUEBAS API — Día 5
+Nombre: Reinaldo Leal
+
+========================================
+1. Prueba GET /api/propuestas
+========================================
+- Método: GET
+- URL: http://localhost:3000/api/propuestas
+- Resultado: Muestra un array JSON con las propuestas guardadas.
+- Observación: Se ve la propuesta inicial por defecto.
+- Estado: ✅ EXITOSO
+
+========================================
+2. Prueba POST desde interfaz (Completo)
+========================================
+- Título: "Parque limpio"
+- Mensaje: "Propongo una jornada de limpieza el próximo sábado."
+- Resultado: El servidor responde con código 201 y un mensaje de confirmación.
+- Persistencia: Se verificó que el dato se guardó en data/propuestas.json.
+- Estado: ✅ EXITOSO
+
+========================================
+3. Prueba Validación: Sin título
+========================================
+- Acción: Dejar el campo de título vacío y pulsar enviar.
+- Resultado esperado: El servidor debe rechazar la solicitud con error 400.
+- Resultado obtenido: Error "El título es obligatorio."
+- Estado: ✅ EXITOSO
+
+========================================
+4. Prueba Validación: Sin mensaje
+========================================
+- Acción: Escribir título pero dejar el mensaje vacío.
+- Resultado esperado: El servidor debe rechazar la solicitud con error 400.
+- Resultado obtenido: Error "El mensaje es obligatorio."
+- Estado: ✅ EXITOSO
+
+========================================
+5. Prueba Carga Automática
+========================================
+- Acción: Pulsar el botón "Cargar propuestas".
+- Resultado: La interfaz se actualiza mostrando todas las propuestas del archivo JSON.
+- Estado: ✅ EXITOSO
