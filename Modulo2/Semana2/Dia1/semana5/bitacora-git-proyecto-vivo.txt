@@ -1,0 +1,30 @@
+BITÁCORA GIT — PROYECTO VIVO
+Módulo 2, Semana 2, Día 1
+Nombre: Reinaldo Leal
+
+========================================
+Concepto de Proyecto Vivo
+========================================
+Un proyecto vivo es aquel que crece y se actualiza constantemente. En esta 
+semana, no clonaremos un repositorio nuevo cada día, sino que trabajaremos 
+sobre el mismo repositorio que recibirá actualizaciones desde la rama main.
+
+========================================
+Flujo de actualización (Día 2 en adelante)
+========================================
+1. Cambiar a rama personal: git checkout reinaldo_leal
+2. Traer cambios de main: git pull origin main
+3. Resolver conflictos (si los hay).
+4. Continuar trabajando.
+
+========================================
+¿Qué es Fast-Forward?
+========================================
+Es cuando Git simplemente mueve el puntero de tu rama hacia adelante porque 
+no hay cambios divergentes. Es la forma más limpia de actualizarse.
+
+========================================
+Comando del día
+========================================
+npm run sitio
+→ Inicia el servidor del proyecto actual.

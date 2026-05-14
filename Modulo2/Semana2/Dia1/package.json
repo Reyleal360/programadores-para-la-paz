@@ -1,0 +1,15 @@
+{
+  "name": "programadores-para-la-paz-mini-sitio-comunitario",
+  "version": "1.0.0",
+  "description": "Proyecto único de la Semana 5 - Mini-sitio comunitario.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sitio": "node server.js"
+  },
+  "author": "Programa Capacitación en Democracia y Tecnología",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

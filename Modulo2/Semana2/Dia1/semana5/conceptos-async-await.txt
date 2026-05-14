@@ -1,0 +1,33 @@
+CONCEPTOS ASYNC Y AWAIT
+Módulo 2, Semana 2, Día 1
+Nombre: Reinaldo Leal
+
+========================================
+¿Qué es async?
+========================================
+Es una palabra clave que se coloca antes de una función para indicar que 
+dicha función manejará tareas asíncronas y que siempre devolverá una promesa.
+
+========================================
+¿Qué es await?
+========================================
+Es una palabra clave que se usa dentro de una función async para pausar la 
+ejecución del código hasta que una promesa se cumpla. Permite escribir 
+código asíncrono que se lee como si fuera síncrono.
+
+========================================
+Ventajas frente a .then()
+========================================
+1. Legibilidad: El código es más limpio y fácil de seguir.
+2. Manejo de errores: Se puede usar try/catch, que es la forma estándar 
+   de manejar errores en JavaScript.
+3. Evita el "Callback Hell": No se anidan múltiples niveles de código.
+
+========================================
+Ejemplo de uso
+========================================
+async function obtenerDatos() {
+  const respuesta = await fetch("/api/datos");
+  const datos = await respuesta.json();
+  console.log(datos);
+}

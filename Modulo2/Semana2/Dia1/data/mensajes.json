@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "autor": "Lider Comunitario",
+    "texto": "Recuerden que mañana hay jornada de limpieza en el parque central.",
+    "fecha": "2026-05-14"
+  },
+  {
+    "id": 2,
+    "autor": "Vecina Maria",
+    "texto": "Se solicita apoyo para el taller de costura del próximo sábado.",
+    "fecha": "2026-05-15"
+  }
+]

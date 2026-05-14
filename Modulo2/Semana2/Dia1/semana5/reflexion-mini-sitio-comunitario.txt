@@ -1,0 +1,32 @@
+REFLEXIÓN — MINI-SITIO COMUNITARIO
+Nombre: Reinaldo Leal
+Fecha: 14 de mayo de 2026
+
+========================================
+¿Qué significa trabajar en un proyecto único?
+========================================
+Trabajar en un proyecto único (o proyecto vivo) significa que estamos 
+construyendo una herramienta real que evoluciona con el tiempo. No son 
+ejercicios aislados, sino piezas de un rompecabezas que se arma día tras día.
+
+Esto requiere mayor disciplina en el uso de Git, ya que debemos aprender 
+a sincronizar nuestro trabajo personal con las actualizaciones generales 
+del proyecto (rama main).
+
+========================================
+Aprendizaje técnico: async y await
+========================================
+El uso de async/await ha simplificado mucho la forma en que mi código 
+interactúa con la API. Ahora el flujo de datos es más predecible y el 
+manejo de errores con try/catch hace que la aplicación sea más robusta.
+
+========================================
+Compromiso comunicativo
+========================================
+El mini-sitio no es solo código; es un espacio de información para personas 
+reales. Planificar un calendario editorial y aplicar criterios de difusión 
+responsable es lo que convierte a un programador en un tecnólogo para la paz.
+
+La tecnología debe servir para unir, informar con la verdad y fomentar la 
+participación democrática. Un sitio bien moderado y planificado genera 
+confianza comunitaria.

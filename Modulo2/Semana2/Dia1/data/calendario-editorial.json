@@ -1,0 +1,14 @@
+[
+  {
+    "clase": 21,
+    "tema": "Inicio del proyecto vivo",
+    "descripcion": "Lanzamiento del mini-sitio comunitario y configuración inicial.",
+    "fecha": "2026-05-18"
+  },
+  {
+    "clase": 22,
+    "tema": "Actualización de ramas",
+    "descripcion": "Uso de git pull origin main para mantener el proyecto al día.",
+    "fecha": "2026-05-19"
+  }
+]

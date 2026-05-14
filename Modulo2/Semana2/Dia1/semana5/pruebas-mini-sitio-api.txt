@@ -1,0 +1,30 @@
+PRUEBAS DE API — MINI-SITIO
+Nombre: Reinaldo Leal
+
+========================================
+Prueba 1: Carga de Mensajes
+========================================
+- Acción: Clic en botón "Cargar mensajes".
+- URL interna: /api/mensajes
+- Resultado: Se visualizan los mensajes del archivo mensajes.json.
+- Estado: ✅ EXITOSO
+
+========================================
+Prueba 2: Carga de Calendario
+========================================
+- Acción: Clic en botón "Cargar calendario".
+- URL interna: /api/calendario
+- Resultado: Se visualiza el cronograma de clases de la semana 5.
+- Estado: ✅ EXITOSO
+
+========================================
+Prueba 3: Rutas Directas
+========================================
+- URL: http://localhost:3000/api/mensajes → ✅ Responde JSON
+- URL: http://localhost:3000/api/calendario → ✅ Responde JSON
+
+========================================
+Modificación realizada
+========================================
+- Se cambió un mensaje en data/mensajes.json para verificar la reactividad 
+  al reiniciar el servidor.
