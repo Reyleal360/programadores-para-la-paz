@@ -1,0 +1,33 @@
+PRUEBAS — TABLERO DE MENSAJES (CLASE 22)
+Nombre: Reinaldo Leal
+
+========================================
+1. Prueba de Carga Visual
+========================================
+- Acción: Clic en "Cargar mensajes".
+- Resultado: Los mensajes aparecen en formato de tarjetas (grid).
+- Observación: Se aplica correctamente el color azul en el borde izquierdo.
+- Estado: ✅ EXITOSO
+
+========================================
+2. Prueba de Legibilidad
+========================================
+- Acción: Verificación de fuentes y contraste.
+- Resultado: La fuente Inter es clara y el contraste entre el texto oscuro 
+  y el fondo blanco de las tarjetas es suficiente.
+- Estado: ✅ EXITOSO
+
+========================================
+3. Prueba de Minimización de Datos
+========================================
+- Acción: Revisar si se muestran los campos "revisor" o "estado" (JSON).
+- Resultado: Solo se ven Autor, Fecha y Texto. Los datos internos están ocultos.
+- Estado: ✅ EXITOSO
+
+========================================
+4. Prueba de Responsividad
+========================================
+- Acción: Cambiar el tamaño de la ventana del navegador.
+- Resultado: Las tarjetas se reorganizan de 3 columnas a 1 sola columna 
+  en pantallas pequeñas.
+- Estado: ✅ EXITOSO

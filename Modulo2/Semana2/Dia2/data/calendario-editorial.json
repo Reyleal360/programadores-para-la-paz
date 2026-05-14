@@ -1,0 +1,20 @@
+[
+  {
+    "clase": 21,
+    "tema": "Inicio del proyecto vivo",
+    "descripcion": "Lanzamiento del mini-sitio comunitario y configuración inicial.",
+    "fecha": "2026-05-18"
+  },
+  {
+    "clase": 22,
+    "tema": "Tablero de mensajes",
+    "descripcion": "Accesibilidad, legibilidad y seguridad visual en el tablero.",
+    "fecha": "2026-05-19"
+  },
+  {
+    "clase": 23,
+    "tema": "Formularios responsables",
+    "descripcion": "Minimización de datos y validación de información ciudadana.",
+    "fecha": "2026-05-20"
+  }
+]

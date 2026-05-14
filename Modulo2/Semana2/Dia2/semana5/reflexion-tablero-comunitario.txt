@@ -1,0 +1,27 @@
+REFLEXIÓN — EL TABLERO COMO VITRINA COMUNITARIA
+Nombre: Reinaldo Leal
+Fecha: 14 de mayo de 2026
+
+========================================
+¿Qué aprendí hoy?
+========================================
+
+Hoy aprendí que la apariencia de un sitio web (CSS) no es solo estética, 
+sino una herramienta de comunicación y accesibilidad. Al organizar los 
+mensajes en tarjetas legibles y ordenadas, estamos facilitando que cualquier 
+persona de la comunidad pueda informarse sin barreras visuales.
+
+El concepto de "Vitrina Comunitaria" me hizo reflexionar sobre la 
+responsabilidad de quien programa. No se trata solo de mostrar datos, 
+sino de hacer curaduría. Al decidir qué datos mostrar y cuáles ocultar, 
+estamos protegiendo la privacidad y mejorando la claridad de la información.
+
+Técnicamente, el flujo de actualización con Git (merge de main a rama personal) 
+me ayudó a entender cómo se trabaja en equipo en un proyecto real. Es 
+fundamental mantener nuestra rama personal al día para no quedarnos atrás 
+con las mejoras del proyecto base.
+
+Finalmente, entiendo que la legibilidad es un acto de respeto hacia el 
+usuario. Un texto claro, con buen contraste y en un espacio ordenado, 
+fortalece la confianza en la plataforma comunitaria y, por ende, en los 
+procesos democráticos locales.

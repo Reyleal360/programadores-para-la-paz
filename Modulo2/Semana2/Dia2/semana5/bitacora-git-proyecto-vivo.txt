@@ -1,0 +1,27 @@
+BITÁCORA GIT — PROYECTO VIVO (ACTUALIZADA CLASE 22)
+Nombre: Reinaldo Leal
+
+========================================
+Flujo de actualización ejecutado hoy
+========================================
+1. Sincronizar main local con el servidor (docentes):
+   git checkout main
+   git pull --ff-only origin main
+
+2. Integrar mejoras a la rama personal:
+   git checkout reinaldo_leal
+   git merge main
+
+========================================
+¿Qué es Fast-Forward?
+========================================
+Es cuando Git puede avanzar el puntero de la rama directamente porque no hay 
+cambios divergentes que causen conflictos. Es como si el tiempo avanzara 
+en línea recta.
+
+========================================
+Resumen de cambios integrados
+========================================
+- Nueva hoja de estilos public/styles.css.
+- Mejoras en la estructura de public/index.html para accesibilidad.
+- Lógica de renderizado en tarjetas en public/app.js.

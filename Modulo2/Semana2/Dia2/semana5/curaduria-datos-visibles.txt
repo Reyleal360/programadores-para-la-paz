@@ -1,0 +1,28 @@
+CURADURÍA Y MINIMIZACIÓN DE DATOS VISIBLES
+Nombre: Reinaldo Leal
+
+========================================
+Datos del archivo fuente (mensajes.json)
+========================================
+- id (interno)
+- autor (público)
+- texto (público)
+- fecha (público)
+- revisor (interno)
+- estado (interno)
+
+========================================
+Datos mostrados en el Tablero
+========================================
+1. Autor: Para saber de quién viene la información.
+2. Fecha: Para saber si la información sigue vigente.
+3. Mensaje: El contenido esencial para la comunidad.
+
+========================================
+¿Por qué ocultamos el resto?
+========================================
+- Ocultamos el ID porque es un dato técnico que no aporta valor al vecino.
+- Ocultamos el Revisor y el Estado para proteger la gestión interna y la 
+  privacidad de quienes moderan la plataforma.
+- La minimización de datos reduce el ruido visual y protege la seguridad 
+  de la información comunitaria.

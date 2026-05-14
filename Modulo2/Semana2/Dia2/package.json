@@ -1,0 +1,14 @@
+{
+  "name": "programadores-para-la-paz-mini-sitio-comunitario",
+  "version": "1.1.0",
+  "description": "Proyecto único Semana 5 - Clase 22: Tablero y Accesibilidad.",
+  "main": "server.js",
+  "scripts": {
+    "sitio": "node server.js"
+  },
+  "author": "Programa Capacitación en Democracia y Tecnología",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

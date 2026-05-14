@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero Comunitario — Módulo 2 Día 2</title>
+    <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fuente Inter para mejor legibilidad -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏘️ Vitrina Comunitaria</h1>
+            <p>Espacio de información clara, accesible y segura para todos.</p>
+        </header>
+
+        <section>
+            <h2>Tablero de mensajes comunitarios</h2>
+            <p>
+                Este tablero muestra avisos y convocatorias importantes. 
+                Hemos seleccionado la información más relevante para proteger tu privacidad.
+            </p>
+            <button id="btnMensajes">Cargar mensajes</button>
+            
+            <!-- El contenedor del tablero donde se renderizarán las tarjetas -->
+            <div id="contenedorMensajes" class="tablero">
+                <!-- Los mensajes aparecerán aquí como tarjetas legibles -->
+                <p style="color: #64748b;">Pulsa el botón para ver las novedades de la comunidad.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>📅 Calendario Editorial</h2>
+            <p>Planificación de contenidos para las próximas dos semanas.</p>
+            <button id="btnCalendario">Ver cronograma</button>
+            <div id="listaCalendario" class="lista-calendario"></div>
+        </section>
+    </div>
+
+    <!-- Script principal -->
+    <script src="app.js"></script>
+</body>
+</html>

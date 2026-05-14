@@ -1,0 +1,18 @@
+CHECKLIST ACCESIBILIDAD Y SEGURIDAD VISUAL
+Nombre: Reinaldo Leal
+
+Para asegurar que nuestro tablero sea una vitrina comunitaria responsable, 
+se han aplicado los siguientes criterios:
+
+1. [x] Jerarquía visual clara: Títulos más grandes y en negrita (H1, H2).
+2. [x] Contraste adecuado: Fondo claro con texto oscuro (Legibilidad).
+3. [x] Tipografía legible: Uso de la fuente Inter sin remates.
+4. [x] Organización coherente: Uso de Grid para separar mensajes de forma ordenada.
+5. [x] Seguridad visual: No hay saturación de colores ni elementos parpadeantes.
+6. [x] Lenguaje claro: Los textos explicativos son breves y directos.
+7. [x] Secciones separadas: El tablero de mensajes está claramente diferenciado 
+    del calendario editorial.
+
+Nota: La seguridad visual implica no abrumar al usuario con demasiada 
+información junta. Las tarjetas separadas por espacios (gap) ayudan a 
+enfocar la lectura.

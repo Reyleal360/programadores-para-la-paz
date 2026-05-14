@@ -1,0 +1,26 @@
+[
+  {
+    "id": 101,
+    "autor": "Comité de Convivencia",
+    "texto": "Recuerden que la vitrina comunitaria es de todos. Mantengamos el respeto.",
+    "fecha": "2026-05-18",
+    "revisor": "Admin",
+    "estado": "publicado"
+  },
+  {
+    "id": 102,
+    "autor": "Centro de Salud",
+    "texto": "Jornada de vacunación este viernes de 8:00 AM a 12:00 PM.",
+    "fecha": "2026-05-19",
+    "revisor": "Enfermera Jefe",
+    "estado": "publicado"
+  },
+  {
+    "id": 103,
+    "autor": "Vecino Juan",
+    "texto": "Busco apoyo para reparar la banca del parque. ¿Quién se suma?",
+    "fecha": "2026-05-20",
+    "revisor": "Admin",
+    "estado": "publicado"
+  }
+]
