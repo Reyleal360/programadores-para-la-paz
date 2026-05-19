@@ -1,0 +1,5 @@
+Bitácora Git Proyecto Vivo
+- pull --ff-only origin main para mantener actualizados los cambios base.
+- creación y uso de rama personal nombres_apellidos.
+- merge de main hacia la rama personal para incorporar los avances del curso.
+- uso del ciclo git status, git add, git commit y git push.

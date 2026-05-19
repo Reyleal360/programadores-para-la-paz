@@ -1,0 +1,7 @@
+Checklist API Propia
+
+[X] Las rutas API están definidas en server.js.
+[X] El frontend tiene los llamados fetch a las rutas correspondientes.
+[X] La respuesta es en formato JSON.
+[X] Los errores están manejados usando bloques try/catch y devolviendo status(500).
+[X] El botón en el DOM está conectado a su respectiva función asíncrona.
