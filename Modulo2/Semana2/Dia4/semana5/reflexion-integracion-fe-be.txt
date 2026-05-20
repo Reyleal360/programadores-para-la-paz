@@ -1,0 +1,5 @@
+Reflexión sobre Integración FE-BE
+
+La integración entre el frontend y el backend es el corazón de las aplicaciones modernas. Entender que el frontend (HTML/CSS/JS del cliente) no almacena la información de forma estática, sino que la solicita a una API, cambia completamente la forma en que concebimos un proyecto.
+
+En un contexto comunitario, esto es vital porque permite actualizar información crítica, noticias o lineamientos sin tener que reescribir y volver a desplegar la página visual completa, garantizando información oportuna y responsable.

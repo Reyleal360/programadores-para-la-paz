@@ -1,0 +1,70 @@
+Pruebas de login pedagógico – Clase 24
+
+Nombre del estudiante: Reinaldo Leal
+Fecha: 20 de mayo de 2026
+Nombre de la rama: reinaldo_leal
+
+Importante:
+Este login es solo pedagógico. No es autenticación real.
+
+Prueba 1: Abrir mini-sitio
+
+Dirección:
+http://localhost:3000
+
+Resultado observado:
+Se carga correctamente la interfaz gráfica del mini-sitio comunitario en el navegador, mostrando el encabezado, el tablero con botones y la sección del formulario de login pedagógico en la parte inferior.
+
+¿Funcionó?
+Respuesta: Sí.
+
+Prueba 2: Login con credenciales de demostración
+
+Usuario:
+docente
+
+Clave:
+demo
+
+Resultado esperado:
+El servidor responde con mensaje de login pedagógico correcto.
+
+Resultado observado:
+Se recibe una respuesta exitosa con HTTP 200 y en la pantalla se muestra el mensaje: "Login pedagógico correcto. En la Clase 25 usaremos este token para explicar middleware."
+
+¿Funcionó?
+Respuesta: Sí.
+
+Prueba 3: Login con clave incorrecta
+
+Usuario:
+docente
+
+Clave:
+incorrecta
+
+Resultado esperado:
+El servidor responde que usuario o clave son incorrectos.
+
+Resultado observado:
+Se recibe una respuesta fallida con HTTP 401 y en la pantalla se muestra el mensaje de error: "Usuario o clave de demostración incorrectos."
+
+¿Funcionó?
+Respuesta: Sí.
+
+Prueba 4: Revisar almacenamiento del token de demostración
+
+¿Qué token de demostración devuelve el servidor?
+
+Respuesta:
+Devuelve el token "token-demostracion-clase-24". Se guarda en el almacenamiento local del navegador (localStorage) con la clave "tokenDemo", junto con el rol "editor" bajo la clave "rolDemo".
+
+5. ¿Por qué este token no debe confundirse con seguridad real?
+
+Respuesta:
+Porque es un string plano y estático definido directamente en el código del servidor (hardcoded). No pasa por un proceso de encriptación, firma digital (como JWT), ni validación contra una base de datos segura de usuarios reales. Además, se transmite en texto plano y no representa un método seguro de autorización.
+
+6. ¿Para qué se usará este login en la Clase 25?
+
+Respuesta:
+Se usará para explicar de forma práctica el funcionamiento de los middlewares en Express. En la siguiente clase aprenderemos a interceptar las peticiones HTTP al backend y verificar si el token de demostración está presente en las cabeceras (headers) antes de permitir el acceso a ciertas rutas protegidas del servidor.

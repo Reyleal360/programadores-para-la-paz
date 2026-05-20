@@ -1,0 +1,91 @@
+Procedimiento de ejecución del proyecto – Clase 24
+
+Nombre del estudiante: Reinaldo Leal
+Fecha: 20 de mayo de 2026
+Nombre de la rama: reinaldo_leal
+
+Escribe el procedimiento para que otra persona pueda ejecutar el proyecto.
+
+1. Requisitos del entorno
+
+¿Qué debe tener instalado la persona?
+Ejemplos: Git, Node.js, navegador, editor de código.
+
+Respuesta:
+- Git (para control de versiones y clonación).
+- Node.js (versión LTS recomendada, incluye NPM).
+- Un navegador web moderno (e.g., Google Chrome, Firefox, Edge).
+- Un editor de código (e.g., Visual Studio Code).
+
+2. Clonar repositorio
+
+Comando:
+
+Respuesta:
+git clone https://github.com/mmgranda/programadores-para-la-paz-mini-sitio-comunitario.git
+
+3. Entrar a la carpeta del proyecto
+
+Comando:
+
+Respuesta:
+cd programadores-para-la-paz
+
+4. Crear o cambiar a rama personal
+
+Comando:
+
+Respuesta:
+git checkout reinaldo_leal
+
+5. Instalar dependencias
+
+Comando:
+
+Respuesta:
+npm install
+
+6. Ejecutar el proyecto
+
+Comando:
+
+Respuesta:
+npm run sitio
+
+7. Abrir en navegador
+
+Dirección:
+
+Respuesta:
+http://localhost:3000
+
+8. Probar rutas de la API
+
+Escribe las rutas que se deben probar:
+
+Respuesta:
+- http://localhost:3000/api/mensajes (GET - Devuelve los mensajes comunitarios)
+- http://localhost:3000/api/calendario (GET - Devuelve la planificación editorial de dos semanas)
+- http://localhost:3000/api/resumen (GET - Muestra estadísticas del total de mensajes y categorías)
+
+9. Probar login pedagógico
+
+Usuario de demostración: docente
+Clave de demostración: demo
+
+Resultado esperado:
+El backend valida las credenciales y devuelve una respuesta en formato JSON que contiene el mensaje "Login pedagógico correcto. En la Clase 25 usaremos este token para explicar middleware.", junto con el usuario "docente", el rol "editor" y un string del token ("token-demostracion-clase-24"). En el navegador, la interfaz muestra este mensaje de éxito en pantalla y almacena el token en localStorage con la clave "tokenDemo".
+
+10. Verificación final
+
+¿Cómo sabe la persona que el proyecto está funcionando?
+
+Respuesta:
+Al ejecutar "npm run sitio", en la consola debe mostrarse un mensaje que dice: "Mini-sitio comunitario funcionando en http://localhost:3000". Al abrir la dirección en el navegador, la interfaz carga correctamente, los botones de mensajes, calendario y resumen traen y pintan los datos dinámicos de la API sin errores, y el login pedagógico valida de forma interactiva las credenciales indicadas.
+
+11. Nota de seguridad
+
+¿Qué información NO debe publicarse?
+
+Respuesta:
+No se debe publicar bajo ningún motivo: contraseñas de cuentas personales o corporativas, tokens de producción reales de plataformas de terceros, claves de acceso de bases de datos, datos personales privados de vecinos/usuarios o enlaces privados del entorno de desarrollo.

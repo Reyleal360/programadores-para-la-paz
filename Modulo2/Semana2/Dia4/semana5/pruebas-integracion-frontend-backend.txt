@@ -1,0 +1,13 @@
+Pruebas de Integración Frontend-Backend
+
+Rutas probadas:
+- http://localhost:3000/api/mensajes -> OK, responde con un JSON de mensajes comunitarios.
+- http://localhost:3000/api/calendario -> OK, responde con JSON del calendario.
+- http://localhost:3000/api/resumen -> OK, responde con un JSON de resumen (procesado en backend).
+
+Botones probados en frontend:
+- Cargar mensajes -> OK, se muestran las tarjetas dinámicas.
+- Cargar calendario -> OK, muestra los contenidos del calendario.
+- Cargar resumen -> OK, muestra el resumen estadístico.
+
+Conclusión: La integración funciona correctamente, el frontend consume exitosamente los endpoints expuestos por el backend mediante fetch.

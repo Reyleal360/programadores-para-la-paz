@@ -1,8 +1,8 @@
 Reflexión sobre transferencia tecnológica – Clase 24
 
-Nombre del estudiante: Reinaldo Leal
-Fecha: 20 de mayo de 2026
-Nombre de la rama: reinaldo_leal
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
 
 Escribe una reflexión de 8 a 10 líneas respondiendo:
 
@@ -25,12 +25,3 @@ En tu respuesta menciona al menos cinco de estas ideas:
 - cultura de paz
 
 Respuesta:
-La documentación detallada de un proyecto comunitario es un pilar fundamental que sirve como ejemplo de documentación como transparencia.
-Al diseñar un README que proporcione una excelente claridad operativa, permitimos que cualquier vecino o colaborador local
-pueda entender, instalar y utilizar el software de manera autónoma, logrando así una transferencia tecnológica real y efectiva.
-En esta labor, el uso responsable de IA y el apoyo verificable de IA son herramientas didácticas valiosas que nos ayudan a redactar
-guías claras sin arriesgar la seguridad de la información. Del mismo modo, registrar el progreso mediante commits claros en
-nuestra trazabilidad en Git nos permite auditar de forma abierta y democrática cómo evoluciona la plataforma comunitaria.
-Por último, políticas estrictas como la no exposición de credenciales y la no publicación de información sensible previenen
-cualquier riesgo digital para los participantes, protegiendo su integridad, consolidando la confianza comunitaria
-e impulsando de manera activa y segura la participación ciudadana y una cultura de paz duradera.

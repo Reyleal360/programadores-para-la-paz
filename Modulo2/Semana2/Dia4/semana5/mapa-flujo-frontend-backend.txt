@@ -1,0 +1,8 @@
+Mapa de Flujo Frontend-Backend (Proyecto Vivo)
+
+1. Base de datos estática: El archivo data/mensajes.json contiene la información estructurada.
+2. Backend (server.js): Levanta el servidor Express y expone endpoints.
+3. Ruta Backend: Se define app.get("/api/mensajes", ...) que lee el JSON y responde con un formato adecuado al cliente.
+4. Petición Frontend (app.js): Utiliza fetch("/api/mensajes") con await/async.
+5. Procesamiento: Se transforma la respuesta con respuesta.json().
+6. Renderizado (DOM): Se itera el array y se insertan las tarjetas en el tablero (innerHTML, appendChild).

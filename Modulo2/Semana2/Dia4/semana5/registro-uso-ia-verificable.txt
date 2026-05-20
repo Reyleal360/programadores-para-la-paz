@@ -1,0 +1,57 @@
+Registro de uso verificable de IA – Clase 24
+
+Nombre del estudiante: Reinaldo Leal
+Fecha: 20 de mayo de 2026
+Nombre de la rama: reinaldo_leal
+
+Importante:
+La IA puede ayudar a mejorar claridad, ordenar pasos y revisar redacción, pero toda sugerencia debe verificarse en el proyecto real.
+
+No debes compartir con IA:
+- contraseñas reales
+- tokens reales
+- datos personales
+- información sensible de la comunidad
+- enlaces privados
+- credenciales de acceso
+
+1. ¿Para qué usaste IA en esta clase?
+Ejemplos: mejorar README, organizar pasos de ejecución, aclarar error, revisar redacción.
+
+Respuesta:
+Para estructurar y responder la guía de Clase 24, analizar el funcionamiento del login pedagógico en `server.js` y `public/app.js`, y redactar la reflexión sobre transferencia tecnológica.
+
+2. Escribe la pregunta que hiciste a la IA:
+
+Respuesta:
+"¿Cómo funciona el login pedagógico en Express usando local storage y un token de prueba, y por qué es importante documentarlo de manera transparente?"
+
+3. Resume la respuesta recibida:
+
+Respuesta:
+La IA explicó que el login pedagógico valida credenciales estáticas ("docente" / "demo") en el backend con Express y devuelve un token ficticio ("token-demostracion-clase-24"). En el frontend, este token se almacena usando localStorage.setItem() para ser utilizado en clases posteriores con middlewares. También recalcó la importancia de la documentación clara para que otros desarrolladores y miembros de la comunidad puedan entender y replicar el flujo sin comprometer la seguridad.
+
+4. ¿Qué parte de la respuesta aplicaste?
+
+Respuesta:
+La comprensión del flujo de almacenamiento del token ficticio en el localStorage, la lógica de validación de la petición POST en Express, y las pautas para estructurar un README transparente y seguro.
+
+5. ¿Qué parte decidiste no aplicar?
+
+Respuesta:
+Cualquier sugerencia relacionada con implementar una base de datos real o encriptación compleja de nivel de producción, ya que se trataba de un ejercicio estrictamente pedagógico y conceptual.
+
+6. ¿Cómo verificaste en el proyecto que la sugerencia era correcta?
+
+Respuesta:
+Revisando el código en `server.js` (ruta POST `/api/login`) y en `public/app.js` (función asíncrona `hacerLogin`), y corroborando que el comportamiento coincide exactamente con la explicación teórica de Express y Fetch API.
+
+7. ¿Incluiste datos sensibles o credenciales reales en la consulta?
+
+Respuesta:
+No, bajo ninguna circunstancia. Solo se utilizaron las credenciales pedagógicas de demostración provistas por la cátedra (usuario: "docente", clave: "demo").
+
+8. ¿Qué aprendiste sobre uso responsable de IA?
+
+Respuesta:
+Aprendí que la IA es una herramienta de asistencia poderosa para aclarar dudas y mejorar la documentación, pero no reemplaza el criterio técnico humano. Toda recomendación debe ser analizada, probada localmente y nunca se deben filtrar datos privados, credenciales o tokens reales a entornos de IA de terceros.
