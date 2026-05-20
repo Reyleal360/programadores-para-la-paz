@@ -1,4 +1,10 @@
-Bitácora Git Proyecto Vivo
+Bitácora Git Proyecto Vivo – Clase 24
+
+Nombre del estudiante: Reinaldo Leal
+Fecha: 20 de mayo de 2026
+Nombre de la rama: reinaldo_leal
+
+Conceptos clave del flujo Git:
 - pull --ff-only origin main para mantener actualizados los cambios base.
 - creación y uso de rama personal nombres_apellidos.
 - merge de main hacia la rama personal para incorporar los avances del curso.
