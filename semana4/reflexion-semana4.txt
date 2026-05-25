@@ -1,0 +1,8 @@
+Es de vital importancia que las comunidades e iniciativas ciudadanas puedan desarrollar sus propias herramientas
+tecnológicas. Al utilizar tecnologías abiertas y accesibles como Node.js, las comunidades adquieren
+autonomía digital y evitan la dependencia de grandes corporaciones de software propietario. Esto permite
+diseñar soluciones personalizadas que respondan directamente a las problemáticas locales y reales del territorio,
+optimizando recursos limitados. Además, al basarse en código abierto, se fomenta una cultura de colaboración
+y aprendizaje compartido, donde el conocimiento no está restringido sino disponible para que cualquiera pueda
+auditarlo, mejorarlo o adaptarlo. La soberanía tecnológica empodera a los ciudadanos, permitiéndoles proteger
+sus propios datos, promover la transparencia y construir un ecosistema digital más justo, inclusivo y democrático.
