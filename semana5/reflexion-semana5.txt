@@ -1,0 +1,8 @@
+Las APIs son una herramienta fundamental para la organización y comunicación en proyectos comunitarios.
+Al actuar como intermediarios estandarizados, permiten centralizar diferentes fuentes de información
+en un único servidor, posibilitando que múltiples aplicaciones (como una web vecinal, una app móvil
+o bots de mensajería) compartan y consulten los mismos datos de manera coherente. Esto facilita la creación
+de sistemas de alerta temprana o tableros de reportes organizados por categorías, fechas y urgencias,
+evitando la dispersión de información en múltiples grupos de chat informales. Asimismo, al estructurar
+los reportes mediante una API, se simplifica el análisis de datos para identificar patrones comunes,
+optimizar la toma de decisiones colectivas y transparentar la gestión comunitaria ante toda la vecindad.

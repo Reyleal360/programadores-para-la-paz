@@ -1,0 +1,10 @@
+Resultados de las pruebas de las rutas en el servidor Express:
+
+1. http://localhost:3000
+   Al visitar esta ruta raíz, el servidor responde con el texto plano "Servidor activo". Indica que la aplicación se está ejecutando correctamente y está lista para recibir solicitudes.
+
+2. http://localhost:3000/saludo
+   Al acceder a esta ruta, el servidor responde con el texto plano "Hola comunidad". Sirve como una respuesta estática de bienvenida.
+
+3. http://localhost:3000/mensaje/juan
+   Al acceder a esta ruta dinámica, el servidor toma el parámetro ":nombre" enviado en la URL (en este caso, "juan") a través de `req.params.nombre` y responde saludando de forma personalizada: "Hola juan".
