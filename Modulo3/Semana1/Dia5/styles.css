@@ -1,0 +1,308 @@
+/* =============================================
+   styles.css – Plataforma Juvenil de Participación
+   Clase 28: Pantalla de Candidatos y Perfiles Responsables
+   ============================================= */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f5f7;
+  color: #333;
+}
+
+/* --- Encabezado --- */
+header {
+  background-color: #8A1538;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+/* --- Contenido principal --- */
+main {
+  padding: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* --- Secciones --- */
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 5px solid #C2185B;
+  border-radius: 8px;
+}
+
+/* --- Títulos --- */
+h1,
+h2 {
+  margin-top: 0;
+}
+
+/* --- Lista de rutas institucionales --- */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+/* --- Botón interactivo --- */
+button {
+  background-color: #8A1538;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #6f102d;
+}
+
+/* --- Mensaje que aparece al hacer clic --- */
+#mensajeClase {
+  margin-top: 12px;
+  font-style: italic;
+  color: #555;
+  min-height: 1.5em;
+}
+
+/* --- Pie de página --- */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
+}
+
+/* =============================================
+   Estilos específicos de la Clase 28
+   ============================================= */
+
+.seccion-candidatos {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 25px;
+}
+
+.contenedor-candidatos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.tarjeta-candidato {
+  border: 1px solid #ddd;
+  border-left: 5px solid #8A1538;
+  border-radius: 10px;
+  padding: 18px;
+  background-color: #fff;
+}
+
+.tarjeta-candidato h3 {
+  color: #8A1538;
+  margin-top: 0;
+}
+
+.tarjeta-candidato button {
+  margin-top: 10px;
+  background-color: #8A1538;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tarjeta-candidato button:hover {
+  background-color: #C2185B;
+}
+
+.detalle-perfil {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #F9EEF3;
+  border-left: 5px solid #C2185B;
+  border-radius: 8px;
+}
+
+/* =============================================
+   Estilos específicos de la Clase 29
+   ============================================= */
+
+.formulario-candidato input,
+.formulario-candidato textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formulario-candidato input:focus,
+.formulario-candidato textarea:focus {
+  outline: none;
+  border-color: #8A1538;
+  box-shadow: 0 0 6px rgba(138, 21, 56, 0.25);
+}
+
+.formulario-candidato button {
+  margin-top: 15px;
+  display: inline-block;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.formulario-candidato button:active {
+  transform: scale(0.98);
+}
+
+#mensajeGuardado {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #8A1538;
+  min-height: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.lista-candidatos {
+  margin-top: 25px;
+}
+
+.tarjeta-guardada {
+  margin-top: 12px;
+  padding: 16px;
+  border-left: 5px solid #8A1538;
+  background-color: #F9EEF3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta-guardada:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(138, 21, 56, 0.08);
+}
+
+.tarjeta-guardada h3 {
+  margin-top: 0;
+  color: #8A1538;
+}
+
+.tarjeta-guardada p {
+  margin: 6px 0;
+}
+
+/* =============================================
+   Estilos específicos de la Clase 30
+   ============================================= */
+
+.campo-grupo {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo-grupo label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.formulario-votacion input,
+.formulario-votacion select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formulario-votacion input:focus,
+.formulario-votacion select:focus {
+  outline: none;
+  border-color: #8A1538;
+  box-shadow: 0 0 6px rgba(138, 21, 56, 0.25);
+}
+
+.formulario-votacion button {
+  margin-top: 20px;
+  width: 100%;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.formulario-votacion button:active {
+  transform: scale(0.98);
+}
+
+#mensajeVoto {
+  margin-top: 15px;
+  font-weight: bold;
+  min-height: 1.5em;
+}
+
+.consulta-votos button {
+  margin-bottom: 15px;
+}
+
+.navegacion-retorno {
+  margin-top: 30px;
+  text-align: center;
+  border-left: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.enlace-retorno {
+  color: #8A1538;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.enlace-retorno:hover {
+  color: #C2185B;
+  text-decoration: underline;
+}
+
+.seccion-votacion-link {
+  background-color: #F9EEF3;
+  border-left: 5px solid #8A1538;
+}
+
+.boton-navegacion {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #8A1538;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.boton-navegacion:hover {
+  background-color: #6f102d;
+}
+
+.boton-navegacion:active {
+  transform: scale(0.98);
+}
+
+
