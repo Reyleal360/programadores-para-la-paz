@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 1780201101730,
+    "identificacion": "EST001",
+    "candidato": "Perfil Transparencia Juvenil",
+    "fecha": "2026-05-31T04:18:21.730Z"
+  },
+  {
+    "id": 1780201101782,
+    "identificacion": "EST002",
+    "candidato": "Perfil Transparencia Juvenil",
+    "fecha": "2026-05-31T04:18:21.782Z"
+  },
+  {
+    "id": 1780201101785,
+    "identificacion": "EST003",
+    "candidato": "Perfil Transparencia Juvenil",
+    "fecha": "2026-05-31T04:18:21.785Z"
+  },
+  {
+    "id": 1780201101786,
+    "identificacion": "EST004",
+    "candidato": "Perfil Comunidad Digital",
+    "fecha": "2026-05-31T04:18:21.786Z"
+  },
+  {
+    "id": 1780201101791,
+    "identificacion": "EST005",
+    "candidato": "Perfil Comunidad Digital",
+    "fecha": "2026-05-31T04:18:21.791Z"
+  },
+  {
+    "id": 1780201101797,
+    "identificacion": "EST006",
+    "candidato": "Perfil Derechos y Participaci�n",
+    "fecha": "2026-05-31T04:18:21.797Z"
+  }
+]

@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": 1780201097813,
+    "nombre": "Perfil Transparencia Juvenil",
+    "rol": "Candidato pedag�gico",
+    "propuesta": "Promover informaci�n clara, participaci�n juvenil y trazabilidad.",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1780201097903,
+    "nombre": "Perfil Comunidad Digital",
+    "rol": "Candidato pedag�gico",
+    "propuesta": "Fortalecer el uso responsable de herramientas digitales.",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1780201097905,
+    "nombre": "Perfil Derechos y Participaci�n",
+    "rol": "Candidato pedag�gico",
+    "propuesta": "Impulsar el cuidado de datos y participaci�n informada.",
+    "estado": "Perfil de práctica académica"
+  }
+]
