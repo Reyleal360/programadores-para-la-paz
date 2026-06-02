@@ -350,3 +350,48 @@ footer {
   font-size: 12px;
   line-height: 18px;
 }
+
+/* =============================================
+   Estilos específicos de la Clase 34
+   ============================================= */
+
+main label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #8A1538;
+}
+
+main input,
+main textarea,
+main select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#mensajeAlerta {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #8A1538;
+}
+
+.boton-volver {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #C2185B;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.boton-volver:hover {
+  background-color: #8A1538;
+}
+
