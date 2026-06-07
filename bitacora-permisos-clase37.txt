@@ -1,0 +1,32 @@
+BITÁCORA DE PERMISOS - CLASE 37
+
+Nombre: Reinaldo Leal
+Fecha: 06 de junio de 2026
+Entorno: GitHub Codespaces (simulado / práctica local)
+
+1. ¿Qué significa el permiso -rw-rw-r--?
+Respuesta: Significa que el propietario y el grupo tienen permisos de lectura y escritura, mientras que los otros usuarios solo tienen permiso de lectura.
+
+2. ¿Qué significa chmod 777?
+Respuesta: Otorga permisos de lectura, escritura y ejecución a todos (propietario, grupo y otros). 
+
+3. ¿Por qué 777 es riesgoso?
+Respuesta: Porque permite a cualquier usuario del sistema (incluidos posibles atacantes) modificar, borrar o ejecutar archivos, lo cual es muy inseguro.
+
+4. ¿Qué permisos son más adecuados para un archivo .env?
+Respuesta: Los permisos 600 (-rw-------), de modo que solo el propietario pueda leer y escribir en él.
+
+5. ¿Por qué un archivo .env no debe estar dentro de una carpeta pública?
+Respuesta: Porque la carpeta pública está expuesta al servidor web, permitiendo que cualquiera con la URL pueda descargar el archivo .env, exponiendo contraseñas, tokens y configuración sensible.
+
+6. ¿Qué pasó cuando se simuló la exposición de config-expuesto.env?
+Respuesta: Al colocar el archivo con configuraciones sensibles en la carpeta pública y acceder a través del servidor web simulado, el contenido del archivo, incluyendo contraseñas y tokens falsos, quedó visible para cualquiera que accediera a esa ruta.
+
+7. ¿Cómo se corrigió el problema?
+Respuesta: Borrando el archivo expuesto de la carpeta pública, restaurando los permisos correctos en las carpetas (755 para public y 700 para privado) y archivos (600 para .env) e implementando un archivo .gitignore.
+
+8. ¿Qué relación tiene esto con Telegram, Node.js o n8n?
+Respuesta: Estas herramientas suelen requerir tokens, credenciales o claves de base de datos para funcionar. Si no protegemos correctamente estos archivos de configuración, un tercero podría tomar el control de nuestros bots o sistemas.
+
+9. ¿Qué aprendí sobre mínimo privilegio?
+Respuesta: Aprendí que los usuarios y procesos deben tener únicamente los permisos estrictamente necesarios para realizar su tarea, ni más ni menos, reduciendo así el impacto de posibles ataques o errores humanos.
