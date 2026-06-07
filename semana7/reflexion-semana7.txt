@@ -1,0 +1,5 @@
+La implementación de plataformas tecnológicas comunitarias para registrar y consultar incidencias resulta indispensable para la gestión eficiente y transparente de un entorno. 
+Primero, fomenta la participación ciudadana al ofrecer un canal estructurado y directo de comunicación con las autoridades y entidades encargadas, reduciendo la burocracia. 
+Además, al centralizar los reportes, permite identificar rápidamente patrones, como zonas con fallas eléctricas recurrentes o problemas sanitarios, mejorando la priorización en la atención. 
+Por otro lado, la posibilidad de consultar datos brinda transparencia, empoderando a la comunidad al conocer el estado de sus problemas y promoviendo el trabajo en conjunto. 
+En conclusión, una base de datos de reportes bien administrada moderniza y agiliza las soluciones urbanas, fortaleciendo la confianza y colaboración comunitaria.

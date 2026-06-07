@@ -1,0 +1,10 @@
+Al consultar la ruta GET /reportes obtenemos un arreglo con los reportes registrados. Por ejemplo:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Esto sucede porque al enviar una petición POST, el servidor guardó la información del reporte en un arreglo en memoria llamado "reportes", y al hacer GET a la misma ruta, el servidor devuelve todo el contenido actual del arreglo en formato JSON.
