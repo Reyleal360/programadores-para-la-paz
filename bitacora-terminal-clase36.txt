@@ -1,0 +1,108 @@
+BITÁCORA DE TERMINAL - CLASE 36
+Código abierto, soberanía tecnológica y primeros pasos en terminal
+
+Nombre del estudiante: Reinaldo Leal
+Fecha: 06 de junio de 2026
+Clase: 36
+Entorno usado: Servidor Debian (simulado / práctica)
+
+1. ¿Qué es un sistema operativo?
+Respuesta: Es el software principal que gestiona los recursos de hardware del computador y proporciona servicios a los programas de aplicación.
+
+2. ¿Qué es el código abierto?
+Respuesta: Es un modelo de desarrollo de software donde el código fuente es accesible al público para su uso, modificación y distribución.
+
+3. ¿Qué significa soberanía tecnológica?
+Respuesta: Es la capacidad de una comunidad o país de tener control sobre las tecnologías que utiliza, asegurando independencia y seguridad de sus datos.
+
+4. ¿Qué es Linux?
+Respuesta: Es un núcleo (kernel) de sistema operativo de código abierto basado en Unix.
+
+5. ¿Qué es Debian?
+Respuesta: Es una de las distribuciones de Linux más antiguas y estables, muy utilizada en servidores.
+
+6. ¿Qué es un servidor?
+Respuesta: Es un computador o sistema que proporciona recursos, datos, servicios o programas a otros computadores, conocidos como clientes, a través de una red.
+
+7. ¿Qué es una terminal?
+Respuesta: Es una interfaz de texto que permite al usuario interactuar directamente con el sistema operativo mediante comandos.
+
+8. Comandos ejecutados y resultado observado:
+
+Comando: whoami
+Resultado: Muestra el nombre del usuario actual.
+
+Comando: hostname
+Resultado: Muestra el nombre de la máquina o servidor en la red.
+
+Comando: date
+Resultado: Muestra la fecha y hora actual del sistema.
+
+Comando: pwd
+Resultado: Muestra la ruta completa del directorio de trabajo actual.
+
+Comando: ls
+Resultado: Lista los archivos y carpetas en el directorio actual.
+
+Comando: ls -la
+Resultado: Lista todos los archivos (incluyendo ocultos) con información detallada de permisos y tamaños.
+
+Comando: mkdir practica-linux
+Resultado: Crea una nueva carpeta llamada "practica-linux".
+
+Comando: cd practica-linux
+Resultado: Cambia el directorio actual a "practica-linux".
+
+Comando: touch notas.txt
+Resultado: Crea un archivo vacío llamado "notas.txt".
+
+Comando: echo "Mi primera practica en terminal Debian" > notas.txt
+Resultado: Escribe el texto dentro del archivo "notas.txt".
+
+Comando: cat notas.txt
+Resultado: Muestra el contenido del archivo "notas.txt" en la terminal.
+
+Comando: cp notas.txt copia-notas.txt
+Resultado: Crea una copia exacta del archivo original con el nuevo nombre.
+
+Comando: mv copia-notas.txt notas-renombradas.txt
+Resultado: Renombra el archivo a "notas-renombradas.txt".
+
+Comando: mkdir respaldo
+Resultado: Crea una nueva carpeta llamada "respaldo".
+
+Comando: mv notas-renombradas.txt respaldo/
+Resultado: Mueve el archivo a la carpeta "respaldo".
+
+Comando: df -h
+Resultado: Muestra el espacio en disco disponible y utilizado en formato legible por humanos.
+
+Comando: free -h
+Resultado: Muestra la memoria RAM y Swap libre y usada en formato legible.
+
+Comando: uname -a
+Resultado: Muestra toda la información del sistema operativo y del kernel de Linux.
+
+Comando: history
+Resultado: Muestra el historial de los comandos ejecutados en la sesión.
+
+Comando: ip a
+Resultado: Muestra las direcciones IP de todas las interfaces de red.
+
+Comando: top
+Resultado: Muestra en tiempo real los procesos que se están ejecutando y el consumo de recursos.
+
+9. ¿Qué comando me pareció más útil y por qué?
+Respuesta: El comando 'ls -la' me pareció muy útil porque permite ver no solo qué archivos existen, sino también quiénes son los dueños, sus permisos y si están ocultos, brindando un panorama completo.
+
+10. ¿Qué aprendí sobre el uso responsable de la terminal?
+Respuesta: Aprendí que la terminal es una herramienta poderosa y que ejecutar comandos sin comprenderlos puede poner en riesgo el sistema o la información. Siempre hay que tener precaución y contexto.
+
+11. ¿Qué información no debo publicar en capturas o evidencias?
+Respuesta: No debo publicar direcciones IP, usuarios, contraseñas, tokens de acceso ni rutas sensibles del servidor.
+
+12. ¿Qué cuidados debo tener al trabajar en un servidor?
+Respuesta: Debo evitar comandos destructivos, no usar 'sudo' sin autorización explícita, no borrar archivos del sistema ni modificar configuraciones sensibles.
+
+13. ¿Cómo se relaciona la terminal con la soberanía tecnológica?
+Respuesta: La terminal permite administrar la infraestructura propia con software de código abierto, sin depender de interfaces de terceros, dando así autonomía total a la comunidad sobre cómo se gestiona y procesa su información.
