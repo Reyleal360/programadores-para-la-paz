@@ -1,0 +1,14 @@
+Al enviar una petición POST a la ruta /registro con el JSON:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+El servidor devuelve la siguiente respuesta en formato JSON:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto sucede porque la ruta procesa los datos recibidos en req.body (gracias a express.json()) y los devuelve en un nuevo objeto JSON como respuesta al cliente.

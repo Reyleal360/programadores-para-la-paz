@@ -1,0 +1,4 @@
+Es de suma importancia que las plataformas tecnológicas permitan recibir reportes ciudadanos de forma estructurada porque esto facilita enormemente la clasificación, análisis y seguimiento de las incidencias reportadas.
+Cuando la información llega en formatos estandarizados como JSON, los sistemas pueden automatizar respuestas, enviar alertas a los departamentos correspondientes y generar estadísticas de manera más eficiente.
+Además, se minimizan los errores de interpretación y se agilizan los tiempos de atención por parte de las autoridades o entidades encargadas.
+En definitiva, una estructura clara optimiza la comunicación entre la ciudadanía y las instituciones, permitiendo construir soluciones comunitarias de forma más colaborativa, rápida y efectiva.
