@@ -1,0 +1,32 @@
+BITÁCORA DE PERMISOS - CLASE 37
+
+Nombre:
+Fecha:
+Entorno: GitHub Codespaces
+
+1. ¿Qué significa el permiso -rw-rw-r--?
+Respuesta: Significa que el propietario y el grupo tienen permisos de lectura y escritura (rw-), mientras que los demás usuarios solo tienen permiso de lectura (r--). Equivale al permiso numérico 664.
+
+2. ¿Qué significa chmod 777?
+Respuesta: Es un comando que asigna permisos totales (lectura, escritura y ejecución) al propietario, al grupo y a todos los demás usuarios del sistema.
+
+3. ¿Por qué 777 es riesgoso?
+Respuesta: Porque permite que cualquier persona o proceso con acceso al sistema pueda ver, modificar o ejecutar los archivos, lo cual puede derivar en pérdida de información o vulnerabilidades de seguridad críticas.
+
+4. ¿Qué permisos son más adecuados para un archivo .env?
+Respuesta: El permiso más adecuado es 600 (-rw-------), de forma que solo el propietario del archivo pueda leerlo y escribir en él.
+
+5. ¿Por qué un archivo .env no debe estar dentro de una carpeta pública?
+Respuesta: Porque los archivos .env contienen credenciales sensibles como contraseñas, tokens y claves de API. Si están en una carpeta pública, cualquier persona en internet podría acceder a ellos y comprometer los servicios.
+
+6. ¿Qué pasó cuando se simuló la exposición de config-expuesto.env?
+Respuesta: El archivo, al estar en una carpeta pública con permisos incorrectos, quedó expuesto a través del servidor web, permitiendo que cualquiera lo descargara y viera las credenciales.
+
+7. ¿Cómo se corrigió el problema?
+Respuesta: Se eliminó el archivo de la carpeta pública, se ajustaron los permisos a los niveles correctos (755 para la carpeta, 700 para la privada, 600 para el .env) y se movió el archivo a un directorio privado y protegido.
+
+8. ¿Qué relación tiene esto con Telegram, Node.js o n8n?
+Respuesta: En estos entornos y herramientas a menudo se utilizan tokens y contraseñas. Proteger los archivos donde se almacenan estas credenciales evita que personas malintencionadas tomen el control de integraciones o bots.
+
+9. ¿Qué aprendí sobre mínimo privilegio?
+Respuesta: Que solo debemos otorgar los permisos estrictamente necesarios para que un usuario o programa pueda realizar su trabajo, evitando accesos innecesarios que expongan nuestra información y sistemas.

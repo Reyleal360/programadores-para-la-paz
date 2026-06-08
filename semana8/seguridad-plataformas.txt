@@ -1,0 +1,5 @@
+1. No exponer datos personales.
+2. Proteger credenciales y tokens en archivos seguros (como .env no públicos).
+3. Usar conexiones seguras y encriptadas (HTTPS).
+4. Registrar accesos y mantener logs de auditoría.
+5. Limitar acceso a información sensible aplicando el principio de mínimo privilegio.
