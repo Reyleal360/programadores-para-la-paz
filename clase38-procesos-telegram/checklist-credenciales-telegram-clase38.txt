@@ -1,0 +1,19 @@
+CHECKLIST DE CREDENCIALES Y TELEGRAM - CLASE 38
+
+[x] Comprendí qué es un proceso.
+[x] Observé procesos con ps.
+[x] Observé procesos con ps aux.
+[x] Busqué procesos Node.js con grep.
+[x] Usé pgrep node.
+[x] Usé top.
+[x] Comprendí cómo detener un proceso con Ctrl + C.
+[x] Comprendí qué es un bot de Telegram.
+[x] Comprendí qué es un token.
+[x] No publiqué el token.
+[x] No tomé capturas con el token visible.
+[x] Guardé el token en .env.
+[x] Agregué .env al .gitignore.
+[x] Verifiqué que .env no se suba a GitHub.
+[x] No usé datos personales reales.
+[x] No envié información sensible por Telegram.
+[x] Documenté la práctica en la bitácora.

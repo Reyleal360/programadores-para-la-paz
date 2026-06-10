@@ -1,0 +1,41 @@
+BITÁCORA DE PROCESOS Y TELEGRAM - CLASE 38
+
+Nombre: marxl
+Fecha: 2026-06-09
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un proceso?
+Respuesta: Es un programa en ejecución que está usando recursos del sistema (CPU, memoria) para realizar una tarea.
+
+2. ¿Qué significa que un proceso esté corriendo?
+Respuesta: Significa que el programa está activo, realizando sus instrucciones y manteniéndose operativo en el sistema operativo en lugar de ser solo un archivo inactivo.
+
+3. ¿Qué puede pasar si un proceso se detiene?
+Respuesta: La tarea o servicio que estaba proporcionando dejará de funcionar. Si era un servidor web o un bot, dejará de responder a las peticiones o mensajes, interrumpiendo la continuidad operativa.
+
+4. ¿Qué comandos usé para observar procesos?
+Respuesta: ps, ps aux, pgrep, top, y ps aux | grep node.
+
+5. ¿Qué es un bot de Telegram?
+Respuesta: Es una aplicación programada que interactúa con usuarios en Telegram mediante mensajes y comandos, actuando como un intermediario automatizado.
+
+6. ¿Qué es un token?
+Respuesta: Es una credencial sensible (una llave digital) generada por BotFather que permite a nuestro código autenticarse y controlar el bot de Telegram.
+
+7. ¿Por qué el token no debe publicarse?
+Respuesta: Porque cualquiera que tenga el token podría tomar el control del bot, leer mensajes enviados a él o usarlo de forma maliciosa.
+
+8. ¿Dónde se guardó el token?
+Respuesta: Se guardó en un archivo llamado .env, en una variable de entorno.
+
+9. ¿Por qué .env debe estar en .gitignore?
+Respuesta: Para evitar que Git registre el archivo y lo suba a repositorios remotos como GitHub, exponiendo así el token a otras personas.
+
+10. ¿Qué diferencia hay entre telegram-test.js y bot-observacion.js?
+Respuesta: telegram-test.js envía un mensaje y luego el proceso termina. bot-observacion.js usa 'polling' y mantiene el proceso activo esperando continuamente nuevos mensajes.
+
+11. ¿Cómo puede servir Telegram a una comunidad digital?
+Respuesta: Como un canal de comunicación directo para notificaciones, acompañamiento, alertas y para mantener la cercanía y confianza mediante respuestas automatizadas.
+
+12. ¿Qué información no debería enviarse por un bot sin protocolo?
+Respuesta: Datos personales reales, documentos de identidad, información de salud, información de menores, denuncias reales ni datos privados.
