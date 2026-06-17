@@ -1,0 +1,24 @@
+CHECKLIST DE SEGURIDAD MÍNIMA - CLASE 42
+
+Nombre: Estudiante
+Fecha: 2026-06-17
+Entorno: GitHub Codespaces / Local
+
+[x] Comprendí el principio de mínimo privilegio.
+[x] Comprendí el concepto de exposición mínima.
+[x] Revisé el archivo .gitignore.
+[x] Confirmé que .env está en .gitignore.
+[x] Agregué *.env a .gitignore.
+[x] Confirmé que node_modules/ está en .gitignore.
+[x] Verifiqué que .env no aparece en git status.
+[x] Verifiqué .env con git check-ignore.
+[x] No escribí tokens reales en server.js.
+[x] No imprimí tokens en consola.
+[x] No mostré credenciales en rutas públicas.
+[x] Reduje la información visible en /estado.
+[x] Creé o revisé la ruta /diagnostico.
+[x] Verifiqué que /diagnostico no muestra tokens.
+[x] No usé datos personales reales.
+[x] No tomé capturas con secretos visibles.
+[x] Comprendí qué archivos no deben subirse.
+[x] Comprendí qué rutas deben ser públicas y cuáles deben limitarse.

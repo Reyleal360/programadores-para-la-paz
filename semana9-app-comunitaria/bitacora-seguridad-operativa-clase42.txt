@@ -1,0 +1,40 @@
+BITÁCORA DE SEGURIDAD OPERATIVA - CLASE 42
+
+Nombre: Estudiante
+Fecha: 2026-06-17
+
+1. ¿Qué significa seguridad operativa aplicada?
+Respuesta: Es la práctica de implementar y mantener medidas de protección técnica en un entorno real de trabajo para evitar la exposición de datos y código sensible.
+
+2. ¿Qué es el principio de mínimo privilegio?
+Respuesta: Otorga a un usuario, archivo o proceso únicamente los permisos mínimos necesarios para realizar su tarea, y no más.
+
+3. ¿Qué significa exposición mínima?
+Respuesta: Evitar mostrar configuraciones internas, rutas del sistema, versiones de software, variables de entorno o errores detallados en interfaces o logs que puedan ser visibles a terceros.
+
+4. ¿Para qué sirve .gitignore?
+Respuesta: Para indicarle a Git qué archivos y carpetas locales no deben ser seguidos, agregados ni subidos al repositorio remoto en GitHub.
+
+5. ¿Por qué .env no debe subirse a GitHub?
+Respuesta: Porque contiene credenciales y secretos (como tokens de bots, contraseñas de DB, o variables clave de configuración) que si se exponen pueden ser utilizados por actores maliciosos para comprometer la plataforma.
+
+6. ¿Qué datos podrían ser sensibles en este proyecto?
+Respuesta: El token del bot de Telegram, contraseñas, direcciones IP de servidores internos, y cualquier tipo de información personal de los usuarios.
+
+7. ¿Qué archivos no deberían subirse al repositorio?
+Respuesta: El archivo .env y sus variantes locales, la carpeta de dependencias node_modules/, y archivos temporales o de registros locales que contengan información sensible.
+
+8. ¿Qué rutas deberían mantenerse públicas?
+Respuesta: Rutas informativas que proporcionan datos de la aplicación y servicios, como /, /saludo, y /api/info.
+
+9. ¿Qué rutas deberían limitar información?
+Respuesta: Las rutas de diagnóstico y estado del sistema (como /estado o /diagnostico), de manera que solo respondan si el servicio está activo o no, pero sin exponer detalles como el puerto, versión o contraseñas.
+
+10. ¿Qué cambio se hizo en /estado?
+Respuesta: Se restringió la respuesta de la ruta, removiendo detalles como el puerto o entorno, y cambiando la respuesta a un simple estado "activo" y mensaje disponible.
+
+11. ¿Qué muestra /diagnostico y qué no debe mostrar?
+Respuesta: Muestra el entorno de ejecución (APP_ENV) y un booleano (true/false) que indica si se ha configurado un token de Telegram. NO debe mostrar ni enviar de regreso el token real en texto plano.
+
+12. ¿Qué aprendí sobre proteger credenciales?
+Respuesta: Aprendí que los tokens y contraseñas jamás deben escribirse en el código directamente, y su presencia debe protegerse no imprimiéndolos en consola ni subiéndolos al repositorio.
