@@ -1,0 +1,23 @@
+Entidad: Reporte
+
+Campos principales:
+- id
+- titulo
+- descripcion
+- estado (ej. pendiente, resuelto)
+- fecha_creacion
+
+Propósito:
+Almacenar los problemas o incidencias comunitarias que los ciudadanos registran para que sean visibles y se les haga seguimiento en la plataforma.
+
+Entidad: Comentario
+
+Campos principales:
+- id
+- reporte_id
+- autor_id
+- contenido
+- fecha_publicacion
+
+Propósito:
+Registrar las opiniones, actualizaciones y evidencias adicionales que aportan los miembros de la comunidad sobre un reporte específico.
