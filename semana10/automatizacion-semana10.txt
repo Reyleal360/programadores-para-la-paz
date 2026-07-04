@@ -1,0 +1,14 @@
+¿Qué evento activa el flujo?
+El flujo de n8n se activará mediante un Webhook que recibe los datos cada vez que un ciudadano envía el formulario web de reporte de una nueva incidencia (nuevo reporte registrado).
+
+¿Qué mensaje se enviaría a Telegram?
+Se enviaría el siguiente mensaje al grupo de coordinación en Telegram:
+"⚠️ Nuevo reporte recibido: [Tipo de incidencia, ej. Bache en la calle]. Por favor, revisar el sistema para validar el caso."
+
+¿Qué información no debería enviarse por seguridad?
+Por seguridad y privacidad (información no sensible), no se deben enviar:
+- Nombres completos de la persona que reporta.
+- Número de documento de identidad.
+- Dirección exacta de su residencia.
+- Números de teléfono o correos electrónicos.
+- Fotografías donde aparezcan rostros de personas, placas de vehículos o datos privados.

@@ -1,0 +1,5 @@
+1. Como ciudadano quiero registrar una incidencia de servicios públicos dañados (como baches o luminarias rotas) para dejar evidencia del caso ante la comunidad.
+2. Como coordinador quiero recibir una alerta en Telegram cada vez que se registre una nueva incidencia para poder revisarla y clasificarla rápidamente.
+3. Como miembro de la junta de vecinos quiero consultar un listado de todas las incidencias activas para hacer seguimiento del progreso de las reparaciones con la alcaldía.
+4. Como ciudadano quiero poder adjuntar una fotografía a mi reporte de incidencia para que el problema sea más claro de identificar.
+5. Como administrador quiero poder marcar una incidencia como "resuelta" para que la comunidad sepa qué problemas ya fueron solucionados.

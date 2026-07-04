@@ -1,0 +1,13 @@
+¿Qué 2 tareas del backlog harías primero?
+1. Como ciudadano quiero registrar una incidencia de servicios públicos dañados (como baches o luminarias rotas) para dejar evidencia del caso ante la comunidad.
+2. Como coordinador quiero recibir una alerta en Telegram cada vez que se registre una nueva incidencia para poder revisarla y clasificarla rápidamente.
+
+¿Por qué son las más importantes?
+Son las más importantes porque juntas representan el flujo mínimo viable (MVP) de la solución. Sin la posibilidad de registrar una incidencia, la plataforma no tendría propósito. Por otro lado, la notificación al coordinador asegura que las incidencias no se queden ignoradas y se inicie su atención de inmediato, lo que da valor desde el primer momento.
+
+¿Qué significa para ti que una tarea esté “terminada”?
+Una tarea está terminada cuando cumple los siguientes criterios:
+1. Funciona correctamente en el entorno de desarrollo y ha sido validada.
+2. Fue probada con casos de éxito y de error básicos sin presentar fallos.
+3. Quedó registrada en Git mediante un commit descriptivo y fue subida al repositorio remoto.
+4. Cumple con la necesidad descrita en la historia de usuario sin agregar complejidad innecesaria.
