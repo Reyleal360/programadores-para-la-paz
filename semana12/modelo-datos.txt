@@ -1,0 +1,17 @@
+Modelo básico de datos
+
+Entidad 1: Causa
+- id
+- titulo
+- descripcion
+- fecha
+
+Explicación: Esta entidad sirve para almacenar toda la información relacionada con el problema o iniciativa ciudadana propuesta. Guarda un identificador único, un título claro, la descripción detallada del problema y la fecha en que se registró.
+
+Entidad 2: Apoyo
+- id
+- causa_id
+- nombre
+- fecha
+
+Explicación: Esta entidad representa las firmas o respaldos que los ciudadanos otorgan a una causa específica. Está relacionada con la "Causa" a través del 'causa_id', permitiendo saber a qué petición pertenece el apoyo, registrando el nombre del ciudadano y la fecha de la acción.

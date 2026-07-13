@@ -1,0 +1,5 @@
+Automatización simple (Notificación por Telegram)
+
+Evento: Nueva causa registrada en el sistema.
+Mensaje: "Se ha creado una nueva causa en la plataforma. Ingresa para conocerla y apoyarla."
+Información que no debe enviarse: Cédulas, teléfonos, direcciones, correos electrónicos, comentarios sensibles o cualquier otro dato personal de los ciudadanos por motivos de seguridad y privacidad.
